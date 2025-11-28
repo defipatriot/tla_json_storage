@@ -1,0 +1,206 @@
+{
+  "version": 1,
+  "updated": "2025-11-28T00:01:22.214Z",
+  "assets": {
+    "LUNA": {
+      "coingecko": true,
+      "coingecko_id": "",
+      "category": "core",
+      "bridge": "native",
+      "multiDex": false,
+      "notes": ""
+    },
+    "EURe": {
+      "coingecko": true,
+      "coingecko_id": "",
+      "category": "stable",
+      "bridge": ".atom",
+      "multiDex": false,
+      "notes": ""
+    },
+    "USDC": {
+      "coingecko": true,
+      "coingecko_id": "",
+      "category": "stable",
+      "bridge": ".atom",
+      "multiDex": false,
+      "notes": ""
+    },
+    "USDT": {
+      "coingecko": true,
+      "coingecko_id": "",
+      "category": "stable",
+      "bridge": ".atom",
+      "multiDex": false,
+      "notes": ""
+    },
+    "ASTRO": {
+      "coingecko": true,
+      "coingecko_id": "",
+      "category": "core",
+      "bridge": ".atom",
+      "multiDex": false,
+      "notes": ""
+    },
+    "CAPA": {
+      "coingecko": true,
+      "coingecko_id": "",
+      "category": "native",
+      "bridge": "native",
+      "multiDex": false,
+      "notes": ""
+    },
+    "FUEL": {
+      "coingecko": false,
+      "coingecko_id": "",
+      "category": "unknown",
+      "bridge": ".atom",
+      "multiDex": false,
+      "notes": ""
+    },
+    "ROAR": {
+      "coingecko": true,
+      "coingecko_id": "",
+      "category": "native",
+      "bridge": "native",
+      "multiDex": false,
+      "notes": ""
+    },
+    "SOLID": {
+      "coingecko": true,
+      "coingecko_id": "",
+      "category": "stable",
+      "bridge": "native",
+      "multiDex": false,
+      "notes": ""
+    },
+    "SWTH": {
+      "coingecko": true,
+      "coingecko_id": "",
+      "category": "cross",
+      "bridge": ".atom",
+      "multiDex": false,
+      "notes": ""
+    },
+    "ampLUNA": {
+      "coingecko": true,
+      "coingecko_id": "",
+      "category": "lsd",
+      "bridge": "native",
+      "multiDex": false,
+      "notes": ""
+    },
+    "boneLUNA": {
+      "coingecko": true,
+      "coingecko_id": "",
+      "category": "lsd",
+      "bridge": "native",
+      "multiDex": false,
+      "notes": ""
+    },
+    "stLUNA": {
+      "coingecko": false,
+      "coingecko_id": "",
+      "category": "lsd",
+      "bridge": "native",
+      "multiDex": false,
+      "notes": ""
+    },
+    "ATOM": {
+      "coingecko": true,
+      "coingecko_id": "",
+      "category": "core",
+      "bridge": ".atom",
+      "multiDex": false,
+      "notes": ""
+    },
+    "INJ": {
+      "coingecko": true,
+      "coingecko_id": "",
+      "category": "core",
+      "bridge": ".atom",
+      "multiDex": false,
+      "notes": ""
+    },
+    "PAXG": {
+      "coingecko": true,
+      "coingecko_id": "",
+      "category": "bluechip",
+      "bridge": ".atom",
+      "multiDex": false,
+      "notes": ""
+    },
+    "wBNB.axl": {
+      "coingecko": false,
+      "coingecko_id": "",
+      "category": "cross",
+      "bridge": ".axl",
+      "multiDex": false,
+      "notes": ""
+    },
+    "wBTC.atom": {
+      "coingecko": true,
+      "coingecko_id": "",
+      "category": "bluechip",
+      "bridge": ".atom",
+      "multiDex": false,
+      "notes": ""
+    },
+    "wBTC.axl": {
+      "coingecko": false,
+      "coingecko_id": "",
+      "category": "bluechip",
+      "bridge": ".axl",
+      "multiDex": false,
+      "notes": ""
+    },
+    "wBTC.osmo": {
+      "coingecko": false,
+      "coingecko_id": "",
+      "category": "bluechip",
+      "bridge": ".osmo",
+      "multiDex": false,
+      "notes": ""
+    },
+    "wstETH": {
+      "coingecko": false,
+      "coingecko_id": "",
+      "category": "unknown",
+      "bridge": "native",
+      "multiDex": false,
+      "notes": ""
+    },
+    "stATOM": {
+      "coingecko": true,
+      "coingecko_id": "",
+      "category": "lsd",
+      "bridge": ".atom",
+      "multiDex": false,
+      "notes": ""
+    },
+    "arbLUNA": {
+      "coingecko": true,
+      "coingecko_id": "",
+      "category": "lsd",
+      "bridge": "native",
+      "multiDex": false,
+      "notes": ""
+    },
+    "ampROAR": {
+      "coingecko": false,
+      "coingecko_id": "",
+      "category": "unknown",
+      "bridge": "native",
+      "multiDex": false,
+      "notes": ""
+    },
+    "wETH.axl": {
+      "coingecko": false,
+      "coingecko_id": "",
+      "category": "bluechip",
+      "bridge": ".axl",
+      "multiDex": false,
+      "notes": ""
+    }
+  }
+}
