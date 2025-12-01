@@ -49,10 +49,10 @@
       "vol_4ep_avg": 15606.010000000002,
       "vol_4ep_count": 4,
       "efficiency": 0.17272352427925525,
-      "access_score": 80,
-      "performance_score": 65.33333333333334,
+      "access_score": 97.5,
+      "performance_score": 67.95833333333334,
       "support_score": 20,
-      "adao_score": 45.33333333333334,
+      "adao_score": 47.95833333333334,
       "included_in_grade": true
     },
     {
@@ -83,10 +83,10 @@
       "vol_4ep_avg": 0,
       "vol_4ep_count": 0,
       "efficiency": 0,
-      "access_score": 80,
-      "performance_score": 15.333333333333332,
+      "access_score": 97.5,
+      "performance_score": 17.958333333333332,
       "support_score": 4.999999999999999,
-      "adao_score": 10.333333333333332,
+      "adao_score": 12.958333333333332,
       "included_in_grade": true
     },
     {
@@ -117,10 +117,10 @@
       "vol_4ep_avg": 237513.72749999998,
       "vol_4ep_count": 4,
       "efficiency": 0.3671641089522104,
-      "access_score": 80,
-      "performance_score": 92,
+      "access_score": 97.5,
+      "performance_score": 94.625,
       "support_score": 100,
-      "adao_score": -23,
+      "adao_score": -20.375,
       "included_in_grade": true
     },
     {
@@ -151,10 +151,10 @@
       "vol_4ep_avg": 0,
       "vol_4ep_count": 0,
       "efficiency": 0,
-      "access_score": 80,
-      "performance_score": 28.666666666666668,
+      "access_score": 97.5,
+      "performance_score": 31.291666666666668,
       "support_score": 25.000000000000004,
-      "adao_score": -11.333333333333336,
+      "adao_score": -8.708333333333336,
       "included_in_grade": true
     },
     {
@@ -185,10 +185,10 @@
       "vol_4ep_avg": 1774.9125,
       "vol_4ep_count": 4,
       "efficiency": 0.1327106839236446,
-      "access_score": 80,
-      "performance_score": 42,
+      "access_score": 92.5,
+      "performance_score": 43.875,
       "support_score": 15,
-      "adao_score": 27,
+      "adao_score": 28.875,
       "included_in_grade": true
     },
     {
@@ -219,10 +219,10 @@
       "vol_4ep_avg": 0,
       "vol_4ep_count": 0,
       "efficiency": 0,
-      "access_score": 80,
-      "performance_score": 18.666666666666668,
+      "access_score": 92.5,
+      "performance_score": 20.541666666666668,
       "support_score": 10,
-      "adao_score": 8.666666666666668,
+      "adao_score": 10.541666666666668,
       "included_in_grade": true
     },
     {
@@ -253,10 +253,10 @@
       "vol_4ep_avg": 6929.155000000001,
       "vol_4ep_count": 4,
       "efficiency": 0.21195375296423496,
-      "access_score": 77.5,
-      "performance_score": 81.75657894736842,
+      "access_score": 97,
+      "performance_score": 84.68157894736842,
       "support_score": 60.47619047619048,
-      "adao_score": 6.280388471177943,
+      "adao_score": 9.20538847117794,
       "included_in_grade": true
     },
     {
@@ -287,10 +287,10 @@
       "vol_4ep_avg": 0,
       "vol_4ep_count": 0,
       "efficiency": 0,
-      "access_score": 77.5,
-      "performance_score": 14.782894736842106,
+      "access_score": 97,
+      "performance_score": 17.707894736842107,
       "support_score": 0,
-      "adao_score": 14.782894736842106,
+      "adao_score": 17.707894736842107,
       "included_in_grade": true
     },
     {
@@ -321,10 +321,10 @@
       "vol_4ep_avg": 1637.555,
       "vol_4ep_count": 4,
       "efficiency": 0.04188028357178612,
-      "access_score": 77.5,
-      "performance_score": 58.86184210526316,
+      "access_score": 100,
+      "performance_score": 62.23684210526316,
       "support_score": 82.38095238095238,
-      "adao_score": -48.51911027568922,
+      "adao_score": -45.14411027568922,
       "included_in_grade": true
     },
     {
@@ -355,10 +355,10 @@
       "vol_4ep_avg": 0,
       "vol_4ep_count": 0,
       "efficiency": 0,
-      "access_score": 77.5,
-      "performance_score": 18.99342105263158,
+      "access_score": 100,
+      "performance_score": 22.36842105263158,
       "support_score": 6.428571428571429,
-      "adao_score": 12.56484962406015,
+      "adao_score": 15.93984962406015,
       "included_in_grade": true
     },
     {
@@ -389,10 +389,10 @@
       "vol_4ep_avg": 264.81,
       "vol_4ep_count": 4,
       "efficiency": 0.00714225317980766,
-      "access_score": 77.5,
-      "performance_score": 37.30921052631579,
+      "access_score": 84.5,
+      "performance_score": 38.359210526315785,
       "support_score": 91.19047619047619,
-      "adao_score": -88.8812656641604,
+      "adao_score": -87.83126566416041,
       "included_in_grade": true
     },
     {
@@ -423,10 +423,10 @@
       "vol_4ep_avg": 1324.5275,
       "vol_4ep_count": 4,
       "efficiency": 0.031803428876301575,
-      "access_score": 77.5,
-      "performance_score": 53.91447368421053,
+      "access_score": 100,
+      "performance_score": 57.28947368421053,
       "support_score": 21.428571428571427,
-      "adao_score": 7.485902255639104,
+      "adao_score": 10.860902255639104,
       "included_in_grade": true
     },
     {
@@ -457,10 +457,10 @@
       "vol_4ep_avg": 0,
       "vol_4ep_count": 0,
       "efficiency": 0,
-      "access_score": 77.5,
-      "performance_score": 16.888157894736842,
+      "access_score": 100,
+      "performance_score": 20.263157894736842,
       "support_score": 0,
-      "adao_score": 16.888157894736842,
+      "adao_score": 20.263157894736842,
       "included_in_grade": true
     },
     {
@@ -491,10 +491,10 @@
       "vol_4ep_avg": 2214.35,
       "vol_4ep_count": 4,
       "efficiency": 0.1501023232356783,
-      "access_score": 77.5,
-      "performance_score": 66.59868421052632,
+      "access_score": 100,
+      "performance_score": 69.97368421052632,
       "support_score": 51.666666666666664,
-      "adao_score": 14.93201754385965,
+      "adao_score": 18.30701754385965,
       "included_in_grade": true
     },
     {
@@ -525,10 +525,10 @@
       "vol_4ep_avg": 0,
       "vol_4ep_count": 0,
       "efficiency": 0,
-      "access_score": 77.5,
-      "performance_score": 15.835526315789473,
+      "access_score": 100,
+      "performance_score": 19.210526315789473,
       "support_score": 0,
-      "adao_score": 15.835526315789473,
+      "adao_score": 19.210526315789473,
       "included_in_grade": true
     },
     {
@@ -559,10 +559,10 @@
       "vol_4ep_avg": 920.48,
       "vol_4ep_count": 4,
       "efficiency": 0.053933305814347625,
-      "access_score": 67.5,
-      "performance_score": 51.651315789473685,
+      "access_score": 99.5,
+      "performance_score": 56.45131578947368,
       "support_score": 10.714285714285712,
-      "adao_score": 50.93703007518798,
+      "adao_score": 55.737030075187974,
       "included_in_grade": true
     },
     {
@@ -593,10 +593,10 @@
       "vol_4ep_avg": 0,
       "vol_4ep_count": 0,
       "efficiency": 0,
-      "access_score": 67.5,
-      "performance_score": 11.17763157894737,
+      "access_score": 99.5,
+      "performance_score": 15.977631578947369,
       "support_score": 0,
-      "adao_score": 11.17763157894737,
+      "adao_score": 15.977631578947369,
       "included_in_grade": true
     },
     {
@@ -627,10 +627,10 @@
       "vol_4ep_avg": 0,
       "vol_4ep_count": 0,
       "efficiency": 0,
-      "access_score": 80,
-      "performance_score": 29.894736842105264,
+      "access_score": 100,
+      "performance_score": 32.89473684210526,
       "support_score": 4.2857142857142865,
-      "adao_score": 25.609022556390975,
+      "adao_score": 28.609022556390975,
       "included_in_grade": true
     },
     {
@@ -661,10 +661,10 @@
       "vol_4ep_avg": 37843.365000000005,
       "vol_4ep_count": 4,
       "efficiency": 0.15097474626335075,
-      "access_score": 80,
-      "performance_score": 87.44736842105263,
+      "access_score": 100,
+      "performance_score": 90.44736842105263,
       "support_score": 100,
-      "adao_score": -2.55263157894737,
+      "adao_score": 0.4473684210526301,
       "included_in_grade": true
     },
     {
@@ -695,10 +695,10 @@
       "vol_4ep_avg": 474.65999999999997,
       "vol_4ep_count": 4,
       "efficiency": 0.021035616095352948,
-      "access_score": 80,
-      "performance_score": 41.578947368421055,
+      "access_score": 100,
+      "performance_score": 44.578947368421055,
       "support_score": 19.28571428571428,
-      "adao_score": 27.293233082706774,
+      "adao_score": 30.293233082706774,
       "included_in_grade": true
     },
     {
@@ -729,10 +729,10 @@
       "vol_4ep_avg": 0,
       "vol_4ep_count": 0,
       "efficiency": 0,
-      "access_score": 80,
-      "performance_score": 32,
+      "access_score": 100,
+      "performance_score": 35,
       "support_score": 12.857142857142858,
-      "adao_score": 29.142857142857142,
+      "adao_score": 32.14285714285714,
       "included_in_grade": true
     },
     {
@@ -763,10 +763,10 @@
       "vol_4ep_avg": 36.79,
       "vol_4ep_count": 4,
       "efficiency": 0.004903048512726403,
-      "access_score": 80,
-      "performance_score": 26.421052631578945,
+      "access_score": 100,
+      "performance_score": 29.421052631578945,
       "support_score": 8.571428571428571,
-      "adao_score": 2.8496240601503757,
+      "adao_score": 5.849624060150376,
       "included_in_grade": true
     },
     {
@@ -797,10 +797,10 @@
       "vol_4ep_avg": 0,
       "vol_4ep_count": 0,
       "efficiency": 0,
-      "access_score": 80,
-      "performance_score": 14.105263157894736,
+      "access_score": 100,
+      "performance_score": 17.105263157894736,
       "support_score": 0,
-      "adao_score": 14.105263157894736,
+      "adao_score": 17.105263157894736,
       "included_in_grade": true
     },
     {
@@ -831,10 +831,10 @@
       "vol_4ep_avg": 6740.8375,
       "vol_4ep_count": 4,
       "efficiency": 0.061582609349851346,
-      "access_score": 57.49999999999999,
-      "performance_score": 69.96710526315789,
+      "access_score": 92.5,
+      "performance_score": 75.21710526315789,
       "support_score": 48.46307546084391,
-      "adao_score": 31.50402980231398,
+      "adao_score": 36.75402980231398,
       "included_in_grade": true
     },
     {
@@ -865,10 +865,10 @@
       "vol_4ep_avg": 0,
       "vol_4ep_count": 0,
       "efficiency": 0,
-      "access_score": 57.49999999999999,
-      "performance_score": 14.940789473684209,
+      "access_score": 92.5,
+      "performance_score": 20.190789473684212,
       "support_score": 2.142857142857142,
-      "adao_score": 12.797932330827066,
+      "adao_score": 18.04793233082707,
       "included_in_grade": true
     },
     {
@@ -899,10 +899,10 @@
       "vol_4ep_avg": 6623.5824999999995,
       "vol_4ep_count": 4,
       "efficiency": 0.17240601129468508,
-      "access_score": 80,
-      "performance_score": 72.09615384615384,
+      "access_score": 99.5,
+      "performance_score": 75.02115384615385,
       "support_score": 88.33333333333334,
-      "adao_score": -16.237179487179503,
+      "adao_score": -13.312179487179492,
       "included_in_grade": true
     },
     {
@@ -933,10 +933,10 @@
       "vol_4ep_avg": 0,
       "vol_4ep_count": 0,
       "efficiency": 0,
-      "access_score": 80,
-      "performance_score": 21.230769230769234,
+      "access_score": 99.5,
+      "performance_score": 24.15576923076923,
       "support_score": 10,
-      "adao_score": 6.2307692307692335,
+      "adao_score": 9.15576923076923,
       "included_in_grade": true
     },
     {
@@ -967,10 +967,10 @@
       "vol_4ep_avg": 180.66500000000002,
       "vol_4ep_count": 4,
       "efficiency": 0.09501433116831892,
-      "access_score": 80,
-      "performance_score": 40.36538461538461,
+      "access_score": 99.5,
+      "performance_score": 43.29038461538461,
       "support_score": 7.5,
-      "adao_score": 32.86538461538461,
+      "adao_score": 35.79038461538461,
       "included_in_grade": true
     },
     {
@@ -1001,10 +1001,10 @@
       "vol_4ep_avg": 0,
       "vol_4ep_count": 0,
       "efficiency": 0,
-      "access_score": 80,
-      "performance_score": 15.076923076923077,
+      "access_score": 99.5,
+      "performance_score": 18.001923076923077,
       "support_score": 4.999999999999999,
-      "adao_score": 10.076923076923077,
+      "adao_score": 13.001923076923077,
       "included_in_grade": true
     },
     {
@@ -1035,10 +1035,10 @@
       "vol_4ep_avg": 848.5049999999999,
       "vol_4ep_count": 2,
       "efficiency": 0.011441557650008252,
-      "access_score": 87.5,
-      "performance_score": 45.38461538461539,
+      "access_score": 92.5,
+      "performance_score": 46.13461538461539,
       "support_score": 100,
-      "adao_score": -54.61538461538461,
+      "adao_score": -53.86538461538461,
       "included_in_grade": true
     },
     {
@@ -1069,10 +1069,10 @@
       "vol_4ep_avg": 38.86333333333334,
       "vol_4ep_count": 3,
       "efficiency": 0.02735178681605871,
-      "access_score": 57.49999999999999,
-      "performance_score": 22.038461538461533,
+      "access_score": 89.5,
+      "performance_score": 26.838461538461537,
       "support_score": 2.5000000000000013,
-      "adao_score": 19.538461538461533,
+      "adao_score": 24.338461538461537,
       "included_in_grade": true
     },
     {
@@ -1103,10 +1103,10 @@
       "vol_4ep_avg": 12510.2625,
       "vol_4ep_count": 4,
       "efficiency": 0.1168597801737111,
-      "access_score": 82.5,
-      "performance_score": 71.46153846153847,
+      "access_score": 100,
+      "performance_score": 74.08653846153847,
       "support_score": 54.16666666666667,
-      "adao_score": 2.2948717948717956,
+      "adao_score": 4.919871794871796,
       "included_in_grade": true
     },
     {
@@ -1137,10 +1137,10 @@
       "vol_4ep_avg": 16771.954999999998,
       "vol_4ep_count": 4,
       "efficiency": 0.1827448747168132,
-      "access_score": 77.5,
-      "performance_score": 85.42307692307692,
+      "access_score": 85,
+      "performance_score": 86.54807692307692,
       "support_score": 70,
-      "adao_score": 0.4230769230769198,
+      "adao_score": 1.5480769230769198,
       "included_in_grade": true
     },
     {
@@ -1171,10 +1171,10 @@
       "vol_4ep_avg": 0,
       "vol_4ep_count": 0,
       "efficiency": 0,
-      "access_score": 72.5,
-      "performance_score": 23.182692307692307,
+      "access_score": 85,
+      "performance_score": 25.057692307692307,
       "support_score": 15,
-      "adao_score": -6.817307692307693,
+      "adao_score": -4.942307692307693,
       "included_in_grade": true
     },
     {
@@ -1205,10 +1205,10 @@
       "vol_4ep_avg": 690.9725,
       "vol_4ep_count": 4,
       "efficiency": 0.15620280950184917,
-      "access_score": 87.5,
-      "performance_score": 56.44230769230769,
+      "access_score": 100,
+      "performance_score": 58.31730769230769,
       "support_score": 42.4955849188404,
-      "adao_score": 8.946722773467293,
+      "adao_score": 10.821722773467293,
       "included_in_grade": true
     },
     {
@@ -1239,10 +1239,10 @@
       "vol_4ep_avg": 0,
       "vol_4ep_count": 0,
       "efficiency": 0,
-      "access_score": 87.5,
-      "performance_score": 23.89423076923077,
+      "access_score": 100,
+      "performance_score": 25.76923076923077,
       "support_score": 12.499999999999998,
-      "adao_score": 6.394230769230772,
+      "adao_score": 8.269230769230772,
       "included_in_grade": true
     },
     {
@@ -1273,10 +1273,10 @@
       "vol_4ep_avg": 21750.190000000002,
       "vol_4ep_count": 4,
       "efficiency": 0.0820882874086244,
-      "access_score": 65,
-      "performance_score": 67.875,
+      "access_score": 85,
+      "performance_score": 70.875,
       "support_score": 35.833333333333336,
-      "adao_score": 42.041666666666664,
+      "adao_score": 45.041666666666664,
       "included_in_grade": true
     },
     {
@@ -1307,10 +1307,10 @@
       "vol_4ep_avg": 0,
       "vol_4ep_count": 0,
       "efficiency": 0,
-      "access_score": 65,
-      "performance_score": 15.903846153846153,
+      "access_score": 85,
+      "performance_score": 18.903846153846153,
       "support_score": 0,
-      "adao_score": 15.903846153846153,
+      "adao_score": 18.903846153846153,
       "included_in_grade": true
     },
     {
@@ -1341,10 +1341,10 @@
       "vol_4ep_avg": 21.9,
       "vol_4ep_count": 4,
       "efficiency": 0.022490141307919816,
-      "access_score": 60,
-      "performance_score": 46.61538461538461,
+      "access_score": 97.5,
+      "performance_score": 52.24038461538461,
       "support_score": 0,
-      "adao_score": 46.61538461538461,
+      "adao_score": 52.24038461538461,
       "included_in_grade": true
     },
     {
@@ -1375,10 +1375,10 @@
       "vol_4ep_avg": 0,
       "vol_4ep_count": 0,
       "efficiency": 0,
-      "access_score": 60,
-      "performance_score": 12.076923076923077,
+      "access_score": 97.5,
+      "performance_score": 17.701923076923077,
       "support_score": 0,
-      "adao_score": 12.076923076923077,
+      "adao_score": 17.701923076923077,
       "included_in_grade": true
     },
     {
@@ -1409,10 +1409,10 @@
       "vol_4ep_avg": 942.1199999999999,
       "vol_4ep_count": 4,
       "efficiency": 0.022135397928548066,
-      "access_score": 80,
-      "performance_score": 57.23076923076923,
+      "access_score": 100,
+      "performance_score": 60.23076923076923,
       "support_score": 6.666666666666666,
-      "adao_score": 50.56410256410257,
+      "adao_score": 53.56410256410257,
       "included_in_grade": true
     },
     {
@@ -1443,10 +1443,10 @@
       "vol_4ep_avg": 0,
       "vol_4ep_count": 0,
       "efficiency": 0,
-      "access_score": 80,
-      "performance_score": 19.692307692307693,
+      "access_score": 100,
+      "performance_score": 22.692307692307693,
       "support_score": 3.333333333333335,
-      "adao_score": 16.358974358974358,
+      "adao_score": 19.358974358974358,
       "included_in_grade": true
     },
     {
@@ -1477,10 +1477,10 @@
       "vol_4ep_avg": 4151.862499999999,
       "vol_4ep_count": 4,
       "efficiency": 0.018881340612303905,
-      "access_score": 65,
-      "performance_score": 62.21153846153847,
+      "access_score": 80,
+      "performance_score": 64.46153846153847,
       "support_score": 83.33333333333334,
-      "adao_score": -11.121794871794876,
+      "adao_score": -8.871794871794876,
       "included_in_grade": true
     },
     {
@@ -1511,16 +1511,16 @@
       "vol_4ep_avg": 0,
       "vol_4ep_count": 0,
       "efficiency": 0,
-      "access_score": 65,
-      "performance_score": 15.903846153846153,
+      "access_score": 80,
+      "performance_score": 18.153846153846153,
       "support_score": 0,
-      "adao_score": 15.903846153846153,
+      "adao_score": 18.153846153846153,
       "included_in_grade": true
     },
     {
       "name": "ampCAPA",
-      "dex": "Single",
-      "dex_raw": "Single",
+      "dex": "Astroport",
+      "dex_raw": "Single (Astroport)",
       "bucket": "SINGLE",
       "is_active": true,
       "vp": 5440000,
@@ -1545,10 +1545,10 @@
       "vol_4ep_avg": 0,
       "vol_4ep_count": 0,
       "efficiency": 0,
-      "access_score": 5,
-      "performance_score": 16.134615384615387,
+      "access_score": 50,
+      "performance_score": 22.884615384615387,
       "support_score": 87.72203262869199,
-      "adao_score": -71.5874172440766,
+      "adao_score": -64.8374172440766,
       "included_in_grade": true
     },
     {
@@ -1579,10 +1579,10 @@
       "vol_4ep_avg": 0,
       "vol_4ep_count": 0,
       "efficiency": 0,
-      "access_score": 55.00000000000001,
-      "performance_score": 9.788461538461537,
+      "access_score": 95,
+      "performance_score": 15.788461538461537,
       "support_score": 0,
-      "adao_score": 9.788461538461537,
+      "adao_score": 15.788461538461537,
       "included_in_grade": true
     },
     {
@@ -1613,10 +1613,10 @@
       "vol_4ep_avg": 0,
       "vol_4ep_count": 0,
       "efficiency": 0,
-      "access_score": 55.00000000000001,
-      "performance_score": 19.01923076923077,
+      "access_score": 95,
+      "performance_score": 25.01923076923077,
       "support_score": 20,
-      "adao_score": -5.98076923076923,
+      "adao_score": 0.01923076923077005,
       "included_in_grade": true
     },
     {
@@ -1647,10 +1647,10 @@
       "vol_4ep_avg": 4570.05,
       "vol_4ep_count": 4,
       "efficiency": 0.027144242107716057,
-      "access_score": 50,
-      "performance_score": 84.42307692307692,
+      "access_score": 60,
+      "performance_score": 85.92307692307692,
       "support_score": 66.66666666666667,
-      "adao_score": 27.75641025641025,
+      "adao_score": 29.25641025641025,
       "included_in_grade": true
     },
     {
@@ -1681,10 +1681,10 @@
       "vol_4ep_avg": 0,
       "vol_4ep_count": 0,
       "efficiency": 0,
-      "access_score": 50,
-      "performance_score": 21.346153846153847,
+      "access_score": 60,
+      "performance_score": 22.846153846153847,
       "support_score": 16.666666666666668,
-      "adao_score": 14.679487179487179,
+      "adao_score": 16.17948717948718,
       "included_in_grade": true
     },
     {
@@ -1715,16 +1715,16 @@
       "vol_4ep_avg": 659.2175,
       "vol_4ep_count": 4,
       "efficiency": 0.0092133246266559,
-      "access_score": 55.00000000000001,
-      "performance_score": 37.55769230769231,
+      "access_score": 80,
+      "performance_score": 41.30769230769231,
       "support_score": 10.784271188970571,
-      "adao_score": 36.773421118721735,
+      "adao_score": 40.523421118721735,
       "included_in_grade": true
     },
     {
       "name": "xASTRO",
-      "dex": "Single",
-      "dex_raw": "Single",
+      "dex": "Astroport",
+      "dex_raw": "Single (Astroport)",
       "bucket": "SINGLE",
       "is_active": true,
       "vp": 337280,
@@ -1749,10 +1749,10 @@
       "vol_4ep_avg": 0,
       "vol_4ep_count": 0,
       "efficiency": 0,
-      "access_score": 5,
-      "performance_score": 20.75,
+      "access_score": 50,
+      "performance_score": 27.5,
       "support_score": 13.333333333333332,
-      "adao_score": 7.416666666666668,
+      "adao_score": 14.166666666666668,
       "included_in_grade": true
     }
   ],
@@ -3045,18 +3045,16 @@
   "ext_data": {
     "loaded": true,
     "votion_available": true,
-    "votion_total_vp": 4802983,
-    "votion_pool_count": 15,
+    "votion_total_vp": 0,
+    "votion_pool_count": 0,
     "pd_bribes_available": true,
-    "historical_lp_count": 26
+    "historical_lp_count": 1
   },
   "validation": {
     "valid": true,
     "ready_for_export": true,
     "issues": [],
-    "warnings": [
-      "36/51 pools missing Votion data"
-    ],
+    "warnings": [],
     "summary": {
       "vote_parsed": true,
       "ext_loaded": true,
