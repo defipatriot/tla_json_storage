@@ -1,0 +1,455 @@
+{
+  "version": 1,
+  "updated": "2025-12-02",
+  "meta": {
+    "title": "TLA Documentation",
+    "description": "Comprehensive guide to understanding the Terra Liquidity Alliance ecosystem"
+  },
+
+  "intro": {
+    "what_is_tla": {
+      "title": "What is TLA?",
+      "simple": "TLA is a system that rewards people for providing trading liquidity on Terra.",
+      "detailed": "The Terra Liquidity Alliance (TLA) is a community-driven initiative that distributes LUNA rewards to liquidity providers. Think of it like a rewards program - when you deposit tokens into trading pools, you earn weekly LUNA based on how much the community votes to support that pool. The more votes a pool gets, the more rewards flow to its depositors.",
+      "analogy": "Imagine a shopping mall where store owners (liquidity providers) set up shops (pools). The mall management (TLA) distributes bonus money to stores based on customer votes. Popular, useful stores get more bonuses, which attracts more store owners, which makes the mall better for everyone.",
+      "why_exists": "Terra needs deep liquidity for traders to swap tokens efficiently. Without liquidity, trades have high slippage (bad prices). TLA incentivizes people to provide this liquidity by sharing protocol rewards with them."
+    },
+    "what_is_liquidity": {
+      "title": "What is Liquidity?",
+      "simple": "Money sitting in a pool that lets others trade.",
+      "detailed": "When you want to swap Token A for Token B, someone needs to have Token B available to give you. Liquidity providers deposit pairs of tokens (like LUNA + USDC) into pools. When traders swap, they trade against this pool. In return, LPs earn trading fees plus TLA rewards.",
+      "analogy": "Think of a currency exchange booth at an airport. The booth needs to have dollars, euros, yen, etc. on hand to exchange for travelers. The money sitting in the booth is 'liquidity'. The booth earns a small fee on each exchange. You can be like that booth by depositing into pools.",
+      "risk_note": "Providing liquidity isn't risk-free. If token prices change significantly, you may experience 'impermanent loss' - getting back a different ratio of tokens than you deposited. Research this before depositing."
+    },
+    "what_is_epoch": {
+      "title": "What is an Epoch?",
+      "simple": "A one-week voting and reward cycle.",
+      "detailed": "TLA operates in weekly cycles called epochs. Each epoch: (1) People vote on which pools should receive rewards, (2) At epoch end, votes are tallied, (3) Rewards are distributed based on vote share. The next epoch then begins immediately.",
+      "timing": "Epochs run Monday to Monday (UTC). Rewards are calculated and distributed shortly after each epoch ends.",
+      "analogy": "Think of it like a weekly allowance that gets divided up. Every week, the family votes on how to split the allowance between different savings goals. At week's end, money goes into each goal based on the votes."
+    }
+  },
+
+  "glossary": {
+    "vp": {
+      "term": "Voting Power (VP)",
+      "simple": "How much voting weight someone has.",
+      "detailed": "Voting Power is the weight behind votes. You get VP by locking ampLUNA or arbLUNA tokens in Votion or similar platforms. More tokens locked = more VP. Longer lock duration = bonus VP multiplier. VP determines your influence over which pools receive rewards.",
+      "analogy": "Like shares in a company giving you votes at shareholder meetings. More shares = more say in decisions.",
+      "how_to_get": "Lock ampLUNA or arbLUNA on platforms like Votion. Longer lock periods give you more VP per token."
+    },
+    "apr": {
+      "term": "APR (Annual Percentage Rate)",
+      "simple": "How much you'd earn in a year, shown as a percentage.",
+      "detailed": "If a pool shows 50% APR, and you deposit $1,000, you'd earn roughly $500 over a full year (if rates stayed constant). APR includes TLA rewards but may not include trading fees. 'Non-Amp' APR is the base rate; 'Amplified' APR includes bonuses from amplified deposits.",
+      "important": "APR is not guaranteed! It changes based on: total deposits in the pool, vote allocation, token prices, and trading activity. Today's 50% APR might be 30% tomorrow.",
+      "analogy": "Like the interest rate on a savings account, but much more variable. Bank savings might offer 4% APR. DeFi pools can offer 20-100%+ but with more risk and variability."
+    },
+    "depth": {
+      "term": "Pool Depth / Liquidity",
+      "simple": "Total money deposited in a pool.",
+      "detailed": "Depth is the total value (in USD) of all tokens deposited in a pool. A pool with $500,000 depth has half a million dollars worth of tokens available for trading. Deeper pools can handle larger trades with less price impact.",
+      "why_matters": "Shallow pools (low depth) cause high slippage - traders get bad prices on large orders. Deep pools attract more trading volume because traders get better prices.",
+      "analogy": "Like how much inventory a store has. A store with lots of inventory can serve many customers without running out. A store with little inventory might not have what you need."
+    },
+    "volume": {
+      "term": "Trading Volume",
+      "simple": "How much trading activity a pool sees.",
+      "detailed": "Volume measures the total USD value of swaps through a pool over a time period (usually 24 hours or 7 days). High volume means lots of people are trading that pair. Volume generates fees for liquidity providers.",
+      "analogy": "Like daily sales at a store. A busy store with high sales volume is healthier than a quiet one."
+    },
+    "bribes": {
+      "term": "Bribes / Incentives",
+      "simple": "Extra rewards offered to attract votes to a pool.",
+      "detailed": "Projects or users can offer additional rewards ('bribes') to voters who direct VP toward specific pools. If you vote for a pool with bribes, you earn your share of TLA rewards PLUS the bribe rewards. This helps newer or smaller pools compete for votes.",
+      "analogy": "Like a store offering extra coupons to customers who shop there. The base rewards are your 'salary', bribes are 'bonuses' for voting a certain way.",
+      "where_to_find": "Phoenix Directive and other platforms distribute bribes. Our dashboard shows 'PD Bribes' (Phoenix Directive) and 'Other Bribes' separately."
+    },
+    "lsd": {
+      "term": "LSD (Liquid Staking Derivative)",
+      "simple": "A token that represents staked LUNA but can still be traded.",
+      "detailed": "Normally when you stake LUNA, it's locked and earns staking rewards. LSDs like ampLUNA let you stake AND keep a tradeable token. You deposit LUNA, receive ampLUNA, and can use ampLUNA in DeFi while still earning staking rewards. The ampLUNA value grows over time relative to LUNA.",
+      "examples": "ampLUNA (Eris Protocol), bLUNA/boneLUNA (Backbone Labs), stLUNA (Stride)",
+      "why_popular": "Best of both worlds - earn staking yield AND use your tokens in DeFi. That's why LSD pools are heavily supported in TLA."
+    },
+    "slippage": {
+      "term": "Slippage",
+      "simple": "Getting a worse price than expected on a trade.",
+      "detailed": "When you swap tokens, the actual price you get might differ from the quoted price - this difference is slippage. Large trades in shallow pools cause more slippage. A 1% slippage on a $10,000 trade costs you $100.",
+      "analogy": "Like buying concert tickets - the price shown might be $50, but after fees and markup, you pay $55. That extra $5 is like slippage."
+    },
+    "impermanent_loss": {
+      "term": "Impermanent Loss (IL)",
+      "simple": "Potential loss from price changes when providing liquidity.",
+      "detailed": "When you deposit tokens in a pool, the pool automatically rebalances as prices change. If one token's price moves significantly, you might end up with less total value than if you'd just held the tokens. It's called 'impermanent' because if prices return to original levels, the loss disappears.",
+      "important": "IL is a real risk in DeFi. Pools with correlated assets (like LUNA/ampLUNA) have minimal IL. Pools with uncorrelated assets (like LUNA/BTC) can have significant IL during volatility.",
+      "analogy": "Imagine trading baseball cards with a friend, agreeing to always keep equal value on each side. If one player suddenly becomes famous, you'd have traded away valuable cards to maintain the balance."
+    }
+  },
+
+  "metrics": {
+    "efficiency": {
+      "label": "Efficiency",
+      "simple": "How hard the pool's money is working.",
+      "detailed": "Efficiency = Volume ÷ Liquidity. A pool with $100K liquidity doing $50K daily volume is more efficient (50%) than a pool with $1M liquidity doing $50K volume (5%). Higher efficiency means the deposited capital is being used more actively.",
+      "formula": "Efficiency = Average Volume / Average Liquidity",
+      "interpretation": {
+        "high": { "label": "High (>30%)", "meaning": "Pool is actively traded, generating good fees relative to capital" },
+        "medium": { "label": "Medium (10-30%)", "meaning": "Moderate trading activity" },
+        "low": { "label": "Low (<10%)", "meaning": "Capital may be underutilized, or pool serves as stable store-of-value" }
+      },
+      "why_matters": "Efficient pools generate more trading fees per dollar deposited. But efficiency isn't everything - stable pairs naturally have lower efficiency but serve important functions.",
+      "nuance": "A low-efficiency pool isn't necessarily bad. USDC-USDT might have low efficiency but is crucial infrastructure for stable swaps."
+    },
+    "vote_pct": {
+      "label": "Vote Share (%)",
+      "simple": "What percentage of all votes this pool received.",
+      "detailed": "If a pool has 10% vote share, it receives 10% of that epoch's total LUNA rewards (for its category). Higher vote share = more rewards flowing to that pool's LPs. Vote share constantly shifts as voters reallocate.",
+      "why_matters": "Vote share directly determines rewards. A pool going from 5% to 10% vote share doubles its reward distribution.",
+      "your_action": "If you hold VP, you decide vote share by where you allocate votes. Choose pools you believe deserve support."
+    },
+    "adao_allocation": {
+      "label": "aDAO Allocation",
+      "simple": "How much Alliance DAO has invested in this pool.",
+      "detailed": "Alliance DAO (aDAO) votes with its community treasury to support ecosystem pools. When aDAO allocates to a pool, it signals community confidence and adds significant VP. The 'aDAO %' shows what portion of the pool's votes come from aDAO.",
+      "why_tracked": "Large aDAO allocation means strong community backing. Zero allocation might indicate a pool the community hasn't prioritized yet - could be an opportunity or a warning sign depending on context."
+    },
+    "four_epoch_avg": {
+      "label": "4-Epoch Average",
+      "simple": "Average over the last 4 weeks.",
+      "detailed": "Rather than showing just today's snapshot, we average liquidity and volume over 4 epochs (4 weeks). This smooths out temporary spikes or dips and shows the pool's typical behavior.",
+      "why_four": "One week can be anomalous. Four weeks reveals patterns. Is this pool consistently active or was last week a fluke?"
+    }
+  },
+
+  "scores": {
+    "overview": {
+      "title": "Understanding Scores",
+      "simple": "We rate pools from 0-100 to help you compare them.",
+      "detailed": "Raw numbers like '$50,000 liquidity' are hard to compare across different pools. Our scoring system converts everything to 0-100 scales, weights different factors, and produces composite scores. Higher = generally better, but always consider context.",
+      "disclaimer": "Scores are tools, not financial advice. A high-scoring pool might still not suit your goals. A low-scoring pool might be exactly what you need. Use scores as one input among many."
+    },
+    "access_score": {
+      "label": "Access Score",
+      "weight": "15%",
+      "simple": "How easy is it for a new user to participate in this pool?",
+      "detailed": "Access Score measures friction. Can someone new to Terra easily: (1) Find the right tokens, (2) Bridge/acquire them without confusion, (3) Understand what they're depositing? Pools with obscure tokens, confusing naming, or complex bridging score lower.",
+      "range": "0-100 where 100 = effortless for beginners, 0 = expert-only",
+      "why_matters": "Pools that are hard to access struggle to grow. New users give up if they can't figure out how to get the right token variant. High access = more potential depositors = healthier pool growth.",
+      "components": {
+        "origin": {
+          "label": "Origin (Base Score)",
+          "simple": "Where does this token come from?",
+          "detailed": "Tokens native to Terra are easiest. IBC tokens from Cosmos require understanding IBC. Bridged tokens (Axelar, Eureka) have multiple variants that confuse users. The further from Terra-native, the lower the score.",
+          "values": {
+            "terra_lsd": {
+              "score": 85,
+              "label": "🔄 Terra LSD",
+              "simple": "Liquid staking tokens on Terra",
+              "why": "Native to Terra, directly benefits the ecosystem, easy to acquire through Eris/Backbone"
+            },
+            "terra_native": {
+              "score": 80,
+              "label": "🏠 Terra Native",
+              "simple": "Tokens built on Terra",
+              "why": "No bridging needed, clear naming, works in all Terra wallets"
+            },
+            "ibc": {
+              "score": 70,
+              "label": "⚛️ IBC",
+              "simple": "Cosmos ecosystem tokens",
+              "why": "IBC is reliable and fast, but users need to understand cross-chain transfers"
+            },
+            "bridged_stable": {
+              "score": 65,
+              "label": "💵 Bridged Stable",
+              "simple": "Stablecoins from other chains",
+              "why": "Important for DeFi but confusing - USDC.noble vs USDC.axl vs USDC.wh - which one do you need?"
+            },
+            "bridge_eureka": {
+              "score": 55,
+              "label": "🌉 Eureka Bridge",
+              "simple": "Tokens via Eureka/IBC bridge",
+              "why": "Requires selecting source chain, changing target to Terra - extra steps confuse newcomers"
+            },
+            "bridge_axelar": {
+              "score": 50,
+              "label": "🔶 Axelar Bridge",
+              "simple": "Tokens via Axelar cross-chain",
+              "why": "Multiple variants exist, not all wallets support all versions, naming can be unclear"
+            }
+          }
+        },
+        "coingecko": {
+          "label": "CoinGecko Status",
+          "simple": "Is this token listed on CoinGecko with Terra pricing?",
+          "detailed": "CoinGecko is a major crypto price tracker. If a token is listed there with Terra as a platform, users can: (1) Easily find price info, (2) Get reliable price oracles for LP balancing, (3) Verify they're getting fair swap rates. Unlisted tokens are harder to research and trust.",
+          "values": {
+            "cg_terra": { "score": 15, "label": "✓ Terra Listed", "meaning": "Full CoinGecko listing with Terra platform" },
+            "cg_chain": { "score": 5, "label": "○ Other Chain", "meaning": "Listed but not specifically for Terra version" },
+            "cg_none": { "score": -15, "label": "✗ Not Listed", "meaning": "No CoinGecko listing - harder to verify prices" }
+          },
+          "why_matters": "Public price oracles provide transparency. Without them, you rely solely on DEX prices which could be manipulated or stale."
+        },
+        "asset_class": {
+          "label": "Asset Class Bonus",
+          "simple": "What type of asset is this?",
+          "detailed": "Different asset types serve different ecosystem needs. We give small bonuses to asset classes that bring particular value to Terra.",
+          "values": {
+            "stable": { "score": 5, "label": "Stablecoin (USDC, USDT)", "why": "Essential DeFi infrastructure, on/off ramp to fiat" },
+            "bluechip": { "score": 5, "label": "Bluechip (BTC, ETH)", "why": "Trusted stores of value, massive external liquidity" },
+            "rwa": { "score": 5, "label": "RWA (PAXG, tokenized assets)", "why": "Non-crypto-correlated, hedge against crypto downturns" },
+            "lsd": { "score": 5, "label": "LSD (ampLUNA, stLUNA)", "why": "Directly benefits Terra staking and security" },
+            "core": { "score": 0, "label": "Core/Native/DeFi", "why": "Standard tokens, no special bonus" }
+          }
+        },
+        "treasury_value": {
+          "label": "Treasury Value",
+          "simple": "Does Terra's treasury want to hold this asset?",
+          "detailed": "Some assets are more valuable to accumulate in Terra's community treasury. BTC, ETH, and stables are universally valuable. Protocol-specific tokens may have limited value outside their ecosystem.",
+          "values": {
+            "high": { "score": 5, "label": "🏆 High Value", "examples": "BTC, ETH, USDC, PAXG" },
+            "medium": { "score": 0, "label": "👍 Medium Value", "examples": "ATOM, ampLUNA, ecosystem tokens" },
+            "low": { "score": -5, "label": "👎 Low Value", "examples": "Niche protocol tokens, memecoins" }
+          }
+        },
+        "naming_accuracy": {
+          "label": "Naming Consistency",
+          "simple": "Is the token name the same everywhere?",
+          "detailed": "If TLA calls it 'USDC' but you need 'USDC.noble' in your wallet, that's confusing. We check if names match across: TLA interface, CoinGecko, DEX displays, and wallet apps (Skip.go, Keplr, Leap).",
+          "scoring": "+10 if consistent everywhere, -10 if confusing mismatches",
+          "why_matters": "Naming confusion causes costly mistakes. Users might buy the wrong variant and be unable to deposit."
+        },
+        "skip_clear": {
+          "label": "Skip.go Clarity",
+          "simple": "Can you easily find this token in wallet swap interfaces?",
+          "detailed": "Skip.go powers swaps in major wallets. If a token is clearly labeled and findable there, users can acquire it easily. If you have to know secret incantations (select X on chain Y then change target to Z), that's friction.",
+          "scoring": "+5 if clear and easy, -5 if requires workarounds"
+        },
+        "multi_dex": {
+          "label": "Multi-DEX Availability",
+          "simple": "Is this pool available on multiple exchanges?",
+          "detailed": "Tokens available on both Astroport and Skeleton Swap give users options and redundancy. Single-DEX tokens are riskier if that DEX has issues.",
+          "scoring": "+5 if available on multiple DEXs"
+        }
+      }
+    },
+    "performance_score": {
+      "label": "Performance Score",
+      "weight": "55%",
+      "simple": "How well is this pool performing financially?",
+      "detailed": "Performance Score combines multiple factors: APR (how much yield), efficiency (how active), depth (how much liquidity), and volume (how much trading). High performance = attractive yields with healthy trading activity.",
+      "components": ["APR ranking within bucket", "Efficiency percentile", "Liquidity depth", "Trading volume trends"],
+      "range": "0-100 where 100 = top performer in its category",
+      "why_matters": "Performance indicates whether depositing here is likely to be profitable. But past performance doesn't guarantee future results."
+    },
+    "support_score": {
+      "label": "Support Score", 
+      "weight": "30%",
+      "simple": "How much backing does this pool already have?",
+      "detailed": "Support Score measures existing vote allocation. High support means the pool is well-funded with votes - great for current LPs but new voters have diminishing impact. Low support might indicate opportunity - your votes have more relative impact.",
+      "interpretation": {
+        "high": "Pool is well-supported, possibly over-allocated. New votes compete with existing large positions.",
+        "medium": "Balanced support. Room for growth without being neglected.",
+        "low": "Under-supported pool. Your votes could significantly impact rewards. Higher risk/reward."
+      },
+      "inverted": "Note: In our composite score, high support slightly DECREASES the aDAO Score because well-supported pools need less help. We're looking for opportunities, not just winners."
+    },
+    "adao_score": {
+      "label": "aDAO Score",
+      "simple": "Overall score combining everything - higher means more opportunity.",
+      "detailed": "The aDAO Score combines Access (15%), Performance (55%), and Support (30%, inverted). A high aDAO Score suggests: the pool is accessible, performing well, but perhaps under-supported - meaning there's opportunity for new allocation to have impact.",
+      "formula": "aDAO Score = (Access × 0.15) + (Performance × 0.55) + ((100 - Support) × 0.30)",
+      "how_to_use": "Use aDAO Score as a starting point for research, not a final decision. A score of 70 doesn't mean 'deposit here'. It means 'worth investigating further'.",
+      "limitations": "Scores can't capture everything. A low-scoring pool might be strategically important. A high-scoring pool might have hidden risks. Always do your own research."
+    }
+  },
+
+  "dex": {
+    "astroport": {
+      "name": "Astroport",
+      "short": "Primary Terra DEX with deepest liquidity",
+      "detailed": "Astroport is the leading decentralized exchange on Terra, launched in late 2021. It offers multiple pool types optimized for different trading pairs: PCL (Passive Concentrated Liquidity) for volatile pairs, Stable pools for like-kind assets, and XYK (constant product) for general use. Most TLA rewards flow through Astroport pools.",
+      "pool_types": {
+        "pcl": {
+          "label": "PCL (Passive Concentrated Liquidity)",
+          "simple": "Smart pools that concentrate liquidity where trading happens",
+          "detailed": "PCL pools automatically concentrate liquidity around the current price, making capital more efficient. Better for volatile pairs like LUNA/USDC where prices move frequently."
+        },
+        "stable": {
+          "label": "Stable",
+          "simple": "Optimized for tokens that should be equal value",
+          "detailed": "Stable pools use curves designed for assets that trade near 1:1 (like USDC/USDT or LUNA/ampLUNA). Much lower slippage for large trades between similar assets."
+        },
+        "xyk": {
+          "label": "XYK (Constant Product)",
+          "simple": "Classic DEX pool type",
+          "detailed": "The original AMM formula (x * y = k). Simple and battle-tested but less capital efficient than newer designs. Still used for some pairs."
+        }
+      },
+      "link": "https://app.astroport.fi/pools"
+    },
+    "skeleton_swap": {
+      "name": "Skeleton Swap",
+      "short": "Backbone Labs DEX (formerly WhiteWhale)",
+      "detailed": "Skeleton Swap is Backbone Labs' decentralized exchange, recently rebranded from WhiteWhale. It focuses on efficient swaps for Terra ecosystem tokens, particularly those related to Backbone's liquid staking products (bLUNA/boneLUNA). Provides competition and redundancy to Astroport.",
+      "history": "Originally launched as WhiteWhale, rebranded to Skeleton Swap in late 2025 as part of Backbone Labs' product consolidation.",
+      "link": "https://skeletonswap.backbonelabs.io/terra/pools"
+    }
+  },
+
+  "buckets": {
+    "overview": {
+      "title": "What are Buckets?",
+      "simple": "Categories that group similar pools together.",
+      "detailed": "TLA organizes pools into buckets so they compete fairly within their category. A small project token pool shouldn't compete directly with the LUNA/USDC mega-pool. Buckets ensure apples-to-apples comparisons.",
+      "why_matters": "Each bucket has its own vote allocation, so supporting a PROJECT pool doesn't take rewards from STABLE pools. This lets the ecosystem support diverse pool types."
+    },
+    "stable": {
+      "name": "STABLE",
+      "simple": "Major stablecoin and high-liquidity pairs",
+      "detailed": "The STABLE bucket contains the most critical infrastructure pools: LUNA/USDC, LUNA/USDT, and similar major pairs. These pools handle the majority of trading volume and are essential for Terra's functioning.",
+      "examples": ["LUNA-USDC", "LUNA-USDT", "LUNA-EURe"],
+      "typical_depth": "$100K - $1M+",
+      "importance": "Foundation of Terra DeFi. Without deep stable pools, all other trading suffers."
+    },
+    "project": {
+      "name": "PROJECT",
+      "simple": "Terra ecosystem project tokens paired with LUNA",
+      "detailed": "PROJECT bucket pools feature tokens from projects building on Terra: DeFi protocols, NFT projects, DAOs, etc. These pools help Terra-native projects have liquid trading pairs.",
+      "examples": ["LUNA-ampLUNA", "LUNA-ASTRO", "LUNA-CAPA", "LUNA-ROAR"],
+      "typical_depth": "$10K - $500K",
+      "importance": "Supports ecosystem growth. Projects need liquid tokens to function and attract users."
+    },
+    "bluechip": {
+      "name": "BLUECHIP",
+      "simple": "Major external crypto assets",
+      "detailed": "BLUECHIP pools pair LUNA with major cryptocurrencies from outside Terra: Bitcoin, Ethereum, ATOM, etc. These pools bring external value into the Terra ecosystem and let users diversify.",
+      "examples": ["LUNA-wBTC", "LUNA-wstETH", "LUNA-ATOM", "LUNA-PAXG"],
+      "typical_depth": "$10K - $200K",
+      "importance": "Bridges Terra to broader crypto. Lets users access BTC/ETH without leaving Terra."
+    },
+    "single": {
+      "name": "SINGLE",
+      "simple": "Non-LUNA pairs and specialized pools",
+      "detailed": "SINGLE bucket contains pools that don't include LUNA: stablecoin pairs (USDC/USDT), wrapped BTC variants, and other specialized pairs. Important for routing and specific use cases.",
+      "examples": ["USDC-USDT", "wBTC.axl-wBTC.osmo", "ampROAR-ROAR"],
+      "typical_depth": "$1K - $50K",
+      "importance": "Enables complex trades and arbitrage. Often used as intermediary routing pools."
+    }
+  },
+
+  "entities": {
+    "adao": {
+      "name": "Alliance DAO (aDAO)",
+      "simple": "Community-run treasury that votes on TLA allocations.",
+      "detailed": "Alliance DAO is a decentralized autonomous organization formed by Terra community members. It manages a treasury of locked voting power and strategically allocates votes to benefit the ecosystem. aDAO decisions are made through governance proposals that members vote on.",
+      "what_it_does": [
+        "Holds locked ampLUNA/arbLUNA for voting power",
+        "Votes on TLA allocations each epoch",
+        "Deposits LP tokens to earn yield for the treasury",
+        "Makes governance decisions through community proposals"
+      ],
+      "how_to_join": "Participate in aDAO governance through the DAODAO platform. Hold ampLUNA or arbLUNA and engage in discussions and votes.",
+      "link": "https://daodao.zone/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg"
+    },
+    "eris": {
+      "name": "Eris Protocol",
+      "simple": "Provides ampLUNA liquid staking and the TLA voting interface.",
+      "detailed": "Eris Protocol is a key Terra infrastructure provider. They created ampLUNA (amplified LUNA), a liquid staking token that earns staking rewards while remaining liquid. Eris also operates the main TLA voting interface where users allocate their voting power.",
+      "products": ["ampLUNA (liquid staking)", "arbLUNA (arbitrage vault)", "TLA Voting Interface", "Amplifier Vaults"],
+      "link": "https://www.erisprotocol.com/terra/liquidity-hub?tab=liquidity"
+    },
+    "votion": {
+      "name": "Votion",
+      "simple": "Platform for locking tokens and earning bribe rewards.",
+      "detailed": "Votion lets users lock their ampLUNA or arbLUNA for voting power, then earn bribes from projects seeking votes. It aggregates voting power and optimizes bribe collection. Think of it as a 'vote marketplace'.",
+      "how_it_works": "Lock tokens → Get voting power → Allocate votes → Earn base TLA rewards + bribes from projects you voted for",
+      "link": "https://votion.money/liquidity-alliance"
+    },
+    "phoenix_directive": {
+      "name": "Phoenix Directive",
+      "simple": "Governance group that allocates bribes to strategic pools.",
+      "detailed": "Phoenix Directive is a governance initiative that collects resources and distributes bribes to pools deemed strategically important for Terra. They analyze which pools need support and offer incentives to voters who allocate to those pools.",
+      "pd_bribes": "When you see 'PD Bribes' in our data, these are incentives being offered by Phoenix Directive for that epoch.",
+      "link": "https://daodao.zone/dao/terra1k8ug6dkzntczfzn76wsh24tdjmx944yj6mk063wum7n20cwd7lxq4lppjg/proposals"
+    },
+    "backbone": {
+      "name": "Backbone Labs",
+      "simple": "Team behind bLUNA and Skeleton Swap.",
+      "detailed": "Backbone Labs builds DeFi infrastructure on Terra, including the bLUNA/boneLUNA liquid staking token and Skeleton Swap DEX (formerly WhiteWhale). They focus on capital efficiency and ecosystem synergies.",
+      "products": ["bLUNA/boneLUNA (liquid staking)", "Skeleton Swap (DEX)", "Necropolis (upcoming)"],
+      "link": "https://backbonelabs.io"
+    }
+  },
+
+  "faq": {
+    "getting_started": {
+      "question": "I'm new to Terra. Where do I start?",
+      "answer": "Welcome! Here's a suggested path: (1) Get a Cosmos wallet like Keplr or Leap, (2) Acquire some LUNA, (3) Explore Astroport to see how swapping works, (4) Consider converting some LUNA to ampLUNA to earn staking rewards, (5) Once comfortable, explore providing liquidity to earn additional yields. Take it slow - DeFi has real risks.",
+      "warning": "Never invest more than you can afford to lose. DeFi smart contracts can have bugs. Start small."
+    },
+    "best_pool": {
+      "question": "What's the best pool to deposit in?",
+      "answer": "There's no single 'best' pool - it depends on your goals. High APR pools have more risk. Stable pairs have lower IL but lower yields. LSD pools (LUNA/ampLUNA) offer good yields with minimal IL. Use our scores as a starting point but research each pool before depositing.",
+      "factors": ["Your risk tolerance", "Assets you already hold", "How long you'll stay deposited", "Your views on specific tokens"]
+    },
+    "voting": {
+      "question": "How do I vote on TLA allocations?",
+      "answer": "To vote: (1) Acquire ampLUNA or arbLUNA, (2) Lock them on Votion or similar platform, (3) Allocate your voting power to pools you want to support via Eris TLA interface, (4) Optionally chase bribes for extra rewards. Votes last until you change them.",
+      "note": "You need locked tokens, not just holding them. Locking gives you voting power."
+    },
+    "rewards_timing": {
+      "question": "When do I receive rewards?",
+      "answer": "TLA rewards are calculated at epoch end (weekly, Monday UTC) and distributed shortly after. LP rewards accrue continuously but may take a few hours to appear after epoch transition. Bribe rewards follow their own schedules - check the specific platform.",
+      "claim": "Rewards don't auto-compound. You need to claim them periodically through the TLA interface."
+    },
+    "impermanent_loss": {
+      "question": "Will I lose money to impermanent loss?",
+      "answer": "IL is a real risk, especially in volatile pools. LUNA/USDC can have significant IL if LUNA price moves sharply. LUNA/ampLUNA has minimal IL because they're correlated. Stable pools (USDC/USDT) have near-zero IL. High APR often compensates for IL, but not always.",
+      "tip": "If you're worried about IL, start with pools where both tokens are related (LSD pairs) or stable pairs."
+    },
+    "score_accuracy": {
+      "question": "How accurate are your scores?",
+      "answer": "Our scores are objective calculations based on public data - they're accurate for what they measure. But scores can't capture everything: governance risk, smart contract risk, team reliability, future changes. Use scores as one tool among many, not as definitive truth.",
+      "update_frequency": "Scores update each epoch with new data."
+    }
+  },
+
+  "warnings": {
+    "not_financial_advice": {
+      "title": "⚠️ Not Financial Advice",
+      "content": "Everything on this dashboard is informational only. We don't recommend specific investments. DeFi carries significant risks including smart contract bugs, impermanent loss, governance attacks, and total loss of funds. Always do your own research and never invest more than you can afford to lose."
+    },
+    "data_accuracy": {
+      "title": "📊 Data Accuracy",
+      "content": "We pull data from on-chain sources and third-party APIs. Data may be delayed, incomplete, or occasionally incorrect. Cross-reference important decisions with primary sources. We make no guarantees about accuracy or timeliness."
+    },
+    "past_performance": {
+      "title": "📈 Past Performance",
+      "content": "Historical APRs, volumes, and other metrics don't predict future results. A pool with 50% APR last month might have 10% APR next month - or lose value entirely. Crypto markets are volatile and unpredictable."
+    }
+  },
+
+  "ui_tooltips": {
+    "vp": "Voting Power - total votes allocated to this pool",
+    "vote_pct": "Share of total votes this pool received",
+    "depth": "Total liquidity (USD) deposited in this pool",
+    "apr_non": "Base annual yield without amplifier boost",
+    "apr_amp": "Boosted annual yield with amplifier",
+    "efficiency": "Volume/Liquidity ratio - higher means capital works harder",
+    "bribes_pd": "Phoenix Directive incentives for this pool",
+    "bribes_other": "Additional incentives from other sources",
+    "access_score": "How easy to acquire and deposit (0-100)",
+    "performance_score": "Financial performance metrics (0-100)",
+    "support_score": "Existing vote allocation level (0-100)",
+    "adao_score": "Composite opportunity score (higher = more opportunity)",
+    "liq_4ep_avg": "Average liquidity over last 4 weeks",
+    "vol_4ep_avg": "Average trading volume over last 4 weeks",
+    "votion_now": "Current Votion platform votes for this pool",
+    "votion_next": "Projected votes after pending changes",
+    "epoch": "Weekly voting and reward cycle",
+    "live_epoch": "Current epoch number (calculated in real-time)",
+    "epoch_countdown": "Time remaining in current epoch"
+  }
+}
