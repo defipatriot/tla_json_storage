@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "updated": "2025-12-03",
+  "general": {
+    "currentEpoch": 161,
+    "defaultPhase": "end"
+  },
+  "urls": {
+    "baseUrl": "https://raw.githubusercontent.com/defipatriot/tla_json_storage/main",
+    "extUrl": "https://raw.githubusercontent.com/defipatriot/tla-ext_json_storage/main",
+    "adaoUrl": "https://raw.githubusercontent.com/defipatriot/adao_json_storage/main"
+  },
+  "scoring": {
+    "weights": {
+      "access": 0.15,
+      "performance": 0.55,
+      "support": 0.30
+    },
+    "origin": {
+      "terra_lsd": 85,
+      "terra_native": 80,
+      "ibc_native": 70,
+      "bridged_stable": 65,
+      "bridge_eureka": 55,
+      "bridge_axelar": 50
+    },
+    "assetClass": {
+      "stable": 5,
+      "bluechip": 5,
+      "lsd": 5,
+      "rwa": 5,
+      "core": 0
+    }
+  },
+  "dex": {
+    "primary": {
+      "name": "Astroport",
+      "link": "https://app.astroport.fi/pools"
+    },
+    "secondary": {
+      "name": "WhiteWhale",
+      "link": "https://app.whitewhale.money/terra/pools",
+      "enabled": false
+    }
+  }
+}
