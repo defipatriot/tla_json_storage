@@ -1,7 +1,8 @@
 {
-  "version": 4,
-  "updated": "2025-11-30T23:06:41.161Z",
+  "version": 5,
+  "updated": "2025-12-02T00:00:00.000Z",
   "score_formula": "origin + class + cg + treasury + naming(±10) + skip(±5) + multidex(+5)",
+  "notes": "v5: Added rwa asset class for PAXG (Real World Asset)",
   "assets": {
     "LUNA": {
       "tla_name": "LUNA",
@@ -236,10 +237,10 @@
       "acquisition_note": "Keplr need to select PAXG Ethereum or other then change the target network to terra",
       "cg_status": "cg_terra",
       "skip_clear": true,
-      "asset_class": "bluechip",
+      "asset_class": "rwa",
       "treasury_value": "high",
       "multi_dex": false,
-      "notes": "",
+      "notes": "Real World Asset - non-crypto correlated, store of value in bear markets",
       "naming_accurate": false,
       "access_score": 75
     },
