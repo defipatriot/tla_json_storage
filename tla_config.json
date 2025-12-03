@@ -35,12 +35,14 @@
   "dex": {
     "primary": {
       "name": "Astroport",
-      "link": "https://app.astroport.fi/pools"
+      "link": "https://app.astroport.fi/pools",
+      "logo": "https://raw.githubusercontent.com/defipatriot/aDAO-Image-Files/main/Astroport%20dex.png"
     },
     "secondary": {
-      "name": "WhiteWhale",
-      "link": "https://app.whitewhale.money/terra/pools",
-      "enabled": false
+      "name": "Skeleton Swap",
+      "link": "https://skeletonswap.backbonelabs.io/terra/pools",
+      "logo": "https://raw.githubusercontent.com/defipatriot/aDAO-Image-Files/main/Skelton%20Swap.webp",
+      "enabled": true
     }
   }
 }

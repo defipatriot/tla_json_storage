@@ -7,7 +7,7 @@
     "source": "TLA Admin Core",
     "export_filters": {
       "astroport": true,
-      "whitewhale": true,
+      "skeleton_swap": true,
       "inactive": true
     }
   },
@@ -57,8 +57,8 @@
     },
     {
       "name": "LUNA-EURe",
-      "dex": "WhiteWhale",
-      "dex_raw": "WhiteWhale",
+      "dex": "Skeleton Swap",
+      "dex_raw": "Skeleton Swap",
       "bucket": "STABLE",
       "is_active": false,
       "vp": 18140,
@@ -125,8 +125,8 @@
     },
     {
       "name": "LUNA-USDC",
-      "dex": "WhiteWhale",
-      "dex_raw": "WhiteWhale",
+      "dex": "Skeleton Swap",
+      "dex_raw": "Skeleton Swap",
       "bucket": "STABLE",
       "is_active": true,
       "vp": 2460000,
@@ -193,8 +193,8 @@
     },
     {
       "name": "LUNA-USDT",
-      "dex": "WhiteWhale",
-      "dex_raw": "WhiteWhale",
+      "dex": "Skeleton Swap",
+      "dex_raw": "Skeleton Swap",
       "bucket": "STABLE",
       "is_active": false,
       "vp": 147610,
@@ -261,8 +261,8 @@
     },
     {
       "name": "LUNA-ASTRO",
-      "dex": "WhiteWhale",
-      "dex_raw": "WhiteWhale",
+      "dex": "Skeleton Swap",
+      "dex_raw": "Skeleton Swap",
       "bucket": "PROJECT",
       "is_active": false,
       "vp": 1.32,
@@ -329,8 +329,8 @@
     },
     {
       "name": "LUNA-CAPA",
-      "dex": "WhiteWhale",
-      "dex_raw": "WhiteWhale",
+      "dex": "Skeleton Swap",
+      "dex_raw": "Skeleton Swap",
       "bucket": "PROJECT",
       "is_active": false,
       "vp": 19990,
@@ -431,8 +431,8 @@
     },
     {
       "name": "LUNA-ROAR",
-      "dex": "WhiteWhale",
-      "dex_raw": "WhiteWhale",
+      "dex": "Skeleton Swap",
+      "dex_raw": "Skeleton Swap",
       "bucket": "PROJECT",
       "is_active": false,
       "vp": 0,
@@ -499,8 +499,8 @@
     },
     {
       "name": "LUNA-SOLID",
-      "dex": "WhiteWhale",
-      "dex_raw": "WhiteWhale",
+      "dex": "Skeleton Swap",
+      "dex_raw": "Skeleton Swap",
       "bucket": "PROJECT",
       "is_active": false,
       "vp": 0,
@@ -567,8 +567,8 @@
     },
     {
       "name": "LUNA-SWTH",
-      "dex": "WhiteWhale",
-      "dex_raw": "WhiteWhale",
+      "dex": "Skeleton Swap",
+      "dex_raw": "Skeleton Swap",
       "bucket": "PROJECT",
       "is_active": false,
       "vp": 0,
@@ -601,8 +601,8 @@
     },
     {
       "name": "LUNA-ampLUNA",
-      "dex": "WhiteWhale",
-      "dex_raw": "WhiteWhale",
+      "dex": "Skeleton Swap",
+      "dex_raw": "Skeleton Swap",
       "bucket": "PROJECT",
       "is_active": false,
       "vp": 28930,
@@ -703,8 +703,8 @@
     },
     {
       "name": "LUNA-boneLUNA",
-      "dex": "WhiteWhale",
-      "dex_raw": "WhiteWhale",
+      "dex": "Skeleton Swap",
+      "dex_raw": "Skeleton Swap",
       "bucket": "PROJECT",
       "is_active": true,
       "vp": 561290,
@@ -771,8 +771,8 @@
     },
     {
       "name": "LUNA-stLUNA",
-      "dex": "WhiteWhale",
-      "dex_raw": "WhiteWhale",
+      "dex": "Skeleton Swap",
+      "dex_raw": "Skeleton Swap",
       "bucket": "PROJECT",
       "is_active": false,
       "vp": 0,
@@ -839,8 +839,8 @@
     },
     {
       "name": "USDC-SOLID",
-      "dex": "WhiteWhale",
-      "dex_raw": "WhiteWhale",
+      "dex": "Skeleton Swap",
+      "dex_raw": "Skeleton Swap",
       "bucket": "PROJECT",
       "is_active": false,
       "vp": 23460,
@@ -907,8 +907,8 @@
     },
     {
       "name": "LUNA-ATOM",
-      "dex": "WhiteWhale",
-      "dex_raw": "WhiteWhale",
+      "dex": "Skeleton Swap",
+      "dex_raw": "Skeleton Swap",
       "bucket": "BLUECHIP",
       "is_active": true,
       "vp": 434710,
@@ -975,8 +975,8 @@
     },
     {
       "name": "LUNA-INJ",
-      "dex": "WhiteWhale",
-      "dex_raw": "WhiteWhale",
+      "dex": "Skeleton Swap",
+      "dex_raw": "Skeleton Swap",
       "bucket": "BLUECHIP",
       "is_active": false,
       "vp": 16180,
@@ -1145,8 +1145,8 @@
     },
     {
       "name": "LUNA-wBTC.osmo",
-      "dex": "WhiteWhale",
-      "dex_raw": "WhiteWhale",
+      "dex": "Skeleton Swap",
+      "dex_raw": "Skeleton Swap",
       "bucket": "BLUECHIP",
       "is_active": true,
       "vp": 1410000,
@@ -1213,8 +1213,8 @@
     },
     {
       "name": "LUNA-wstETH",
-      "dex": "WhiteWhale",
-      "dex_raw": "WhiteWhale",
+      "dex": "Skeleton Swap",
+      "dex_raw": "Skeleton Swap",
       "bucket": "BLUECHIP",
       "is_active": true,
       "vp": 990000,
@@ -1281,8 +1281,8 @@
     },
     {
       "name": "USDC-EURe",
-      "dex": "WhiteWhale",
-      "dex_raw": "WhiteWhale",
+      "dex": "Skeleton Swap",
+      "dex_raw": "Skeleton Swap",
       "bucket": "BLUECHIP",
       "is_active": false,
       "vp": 0,
@@ -1349,8 +1349,8 @@
     },
     {
       "name": "ATOM-stATOM",
-      "dex": "WhiteWhale",
-      "dex_raw": "WhiteWhale",
+      "dex": "Skeleton Swap",
+      "dex_raw": "Skeleton Swap",
       "bucket": "SINGLE",
       "is_active": false,
       "vp": 0,
@@ -1417,8 +1417,8 @@
     },
     {
       "name": "LUNA-arbLUNA",
-      "dex": "WhiteWhale",
-      "dex_raw": "WhiteWhale",
+      "dex": "Skeleton Swap",
+      "dex_raw": "Skeleton Swap",
       "bucket": "SINGLE",
       "is_active": false,
       "vp": 25690,
@@ -1485,8 +1485,8 @@
     },
     {
       "name": "USDC-USDT",
-      "dex": "WhiteWhale",
-      "dex_raw": "WhiteWhale",
+      "dex": "Skeleton Swap",
+      "dex_raw": "Skeleton Swap",
       "bucket": "SINGLE",
       "is_active": false,
       "vp": 0.36,
@@ -1587,8 +1587,8 @@
     },
     {
       "name": "ampROAR-ROAR",
-      "dex": "WhiteWhale",
-      "dex_raw": "WhiteWhale",
+      "dex": "Skeleton Swap",
+      "dex_raw": "Skeleton Swap",
       "bucket": "SINGLE",
       "is_active": true,
       "vp": 2350000,
@@ -1655,8 +1655,8 @@
     },
     {
       "name": "wBTC.osmo-wBTC.axl",
-      "dex": "WhiteWhale",
-      "dex_raw": "WhiteWhale",
+      "dex": "Skeleton Swap",
+      "dex_raw": "Skeleton Swap",
       "bucket": "SINGLE",
       "is_active": true,
       "vp": 1960000,
@@ -2003,7 +2003,7 @@
       {
         "name": "LUNA-USDC LP",
         "normalized_name": "LUNA-USDC",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "xyk",
         "bucket": "STABLE",
         "depth": 100590,
@@ -2143,7 +2143,7 @@
       {
         "name": "LUNA-boneLUNA LP",
         "normalized_name": "LUNA-boneLUNA",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "xyk",
         "bucket": "PROJECT",
         "depth": 259470.00000000003,
@@ -2199,7 +2199,7 @@
       {
         "name": "LUNA-ATOM LP",
         "normalized_name": "LUNA-ATOM",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "xyk",
         "bucket": "BLUECHIP",
         "depth": 9904.81,
@@ -2255,7 +2255,7 @@
       {
         "name": "LUNA-wBTC.osmo LP",
         "normalized_name": "LUNA-wBTC.osmo",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "xyk",
         "bucket": "BLUECHIP",
         "depth": 29150,
@@ -2283,7 +2283,7 @@
       {
         "name": "LUNA-wstETH LP",
         "normalized_name": "LUNA-wstETH",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "xyk",
         "bucket": "BLUECHIP",
         "depth": 21680,
@@ -2339,7 +2339,7 @@
       {
         "name": "ampROAR-ROAR LP",
         "normalized_name": "ampROAR-ROAR",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "xyk",
         "bucket": "SINGLE",
         "depth": 48900,
@@ -2367,7 +2367,7 @@
       {
         "name": "wBTC.osmo-wBTC.axl LP",
         "normalized_name": "wBTC.osmo-wBTC.axl",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "stable",
         "bucket": "SINGLE",
         "depth": 86870,
@@ -2411,7 +2411,7 @@
       {
         "name": "LUNA-EURe LP",
         "normalized_name": "LUNA-EURe",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "xyk",
         "bucket": "STABLE",
         "depth": 3669.05,
@@ -2439,7 +2439,7 @@
       {
         "name": "LUNA-SOLID LP",
         "normalized_name": "LUNA-SOLID",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "xyk",
         "bucket": "PROJECT",
         "depth": 91.13,
@@ -2467,7 +2467,7 @@
       {
         "name": "LUNA-USDT LP",
         "normalized_name": "LUNA-USDT",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "xyk",
         "bucket": "STABLE",
         "depth": 6724.21,
@@ -2481,7 +2481,7 @@
       {
         "name": "LUNA-ASTRO LP",
         "normalized_name": "LUNA-ASTRO",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "xyk",
         "bucket": "PROJECT",
         "depth": 2.29,
@@ -2495,7 +2495,7 @@
       {
         "name": "LUNA-CAPA LP",
         "normalized_name": "LUNA-CAPA",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "xyk",
         "bucket": "PROJECT",
         "depth": 649.24,
@@ -2509,7 +2509,7 @@
       {
         "name": "LUNA-ROAR LP",
         "normalized_name": "LUNA-ROAR",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "xyk",
         "bucket": "PROJECT",
         "depth": 103.69,
@@ -2523,7 +2523,7 @@
       {
         "name": "LUNA-SOLID LP",
         "normalized_name": "LUNA-SOLID",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "xyk",
         "bucket": "PROJECT",
         "depth": 91.13,
@@ -2537,7 +2537,7 @@
       {
         "name": "LUNA-SWTH LP",
         "normalized_name": "LUNA-SWTH",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "xyk",
         "bucket": "PROJECT",
         "depth": 1.57,
@@ -2579,7 +2579,7 @@
       {
         "name": "LUNA-Whale LP",
         "normalized_name": "LUNA-Whale",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "xyk",
         "bucket": "UNKNOWN",
         "depth": 497.24,
@@ -2593,7 +2593,7 @@
       {
         "name": "LUNA-ampLUNA LP",
         "normalized_name": "LUNA-ampLUNA",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "xyk",
         "bucket": "PROJECT",
         "depth": 118580,
@@ -2607,7 +2607,7 @@
       {
         "name": "LUNA-stLUNA LP",
         "normalized_name": "LUNA-stLUNA",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "xyk",
         "bucket": "PROJECT",
         "depth": 1.7,
@@ -2621,7 +2621,7 @@
       {
         "name": "USDC-SOLID LP",
         "normalized_name": "USDC-SOLID",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "xyk",
         "bucket": "PROJECT",
         "depth": 419.28,
@@ -2649,7 +2649,7 @@
       {
         "name": "LUNA-INJ LP",
         "normalized_name": "LUNA-INJ",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "xyk",
         "bucket": "BLUECHIP",
         "depth": 1459.11,
@@ -2677,7 +2677,7 @@
       {
         "name": "LUNA-wBNB LP",
         "normalized_name": "LUNA-wBNB",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "xyk",
         "bucket": "UNKNOWN",
         "depth": 0.01,
@@ -2733,7 +2733,7 @@
       {
         "name": "LUNA-wSOL.wh LP",
         "normalized_name": "LUNA-wSOL.wh",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "xyk",
         "bucket": "UNKNOWN",
         "depth": 918.91,
@@ -2747,7 +2747,7 @@
       {
         "name": "USDC-EURe LP",
         "normalized_name": "USDC-EURe",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "xyk",
         "bucket": "BLUECHIP",
         "depth": 4175.42,
@@ -2775,7 +2775,7 @@
       {
         "name": "USDC-USDT LP",
         "normalized_name": "USDC-USDT",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "stable",
         "bucket": "SINGLE",
         "depth": 2974.7,
@@ -2789,7 +2789,7 @@
       {
         "name": "USDC-USDT LP",
         "normalized_name": "USDC-USDT",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "xyk",
         "bucket": "SINGLE",
         "depth": 3722.38,
@@ -2817,7 +2817,7 @@
       {
         "name": "ATOM-dATOM LP",
         "normalized_name": "ATOM-dATOM",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "xyk",
         "bucket": "UNKNOWN",
         "depth": 3708.16,
@@ -2845,7 +2845,7 @@
       {
         "name": "ATOM-stATOM LP",
         "normalized_name": "ATOM-stATOM",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "xyk",
         "bucket": "SINGLE",
         "depth": 0.01,
@@ -2887,7 +2887,7 @@
       {
         "name": "LUNA-arbLUNA LP",
         "normalized_name": "LUNA-arbLUNA",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "xyk",
         "bucket": "SINGLE",
         "depth": 3181.92,
@@ -2915,7 +2915,7 @@
       {
         "name": "SWTH-rSWTH LP",
         "normalized_name": "SWTH-rSWTH",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "xyk",
         "bucket": "UNKNOWN",
         "depth": 0.01,
@@ -2929,7 +2929,7 @@
       {
         "name": "USDC-USDT LP",
         "normalized_name": "USDC-USDT",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "stable",
         "bucket": "SINGLE",
         "depth": 2974.7,
@@ -2943,7 +2943,7 @@
       {
         "name": "USDC-USDT LP",
         "normalized_name": "USDC-USDT",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "xyk",
         "bucket": "SINGLE",
         "depth": 3722.38,
@@ -2999,7 +2999,7 @@
       {
         "name": "ampWHALE-Whale LP",
         "normalized_name": "ampWHALE-Whale",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "xyk",
         "bucket": "UNKNOWN",
         "depth": 332.02,
@@ -3013,7 +3013,7 @@
       {
         "name": "boneWHALE-Whale LP",
         "normalized_name": "boneWHALE-Whale",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "xyk",
         "bucket": "UNKNOWN",
         "depth": 314.44,
@@ -3027,7 +3027,7 @@
       {
         "name": "wETH-wstETH LP",
         "normalized_name": "wETH-wstETH",
-        "dex": "WhiteWhale",
+        "dex": "Skeleton Swap",
         "type": "xyk",
         "bucket": "UNKNOWN",
         "depth": 119,
