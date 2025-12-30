@@ -4425,9 +4425,9 @@
         "epoch_sales": [],
         "floor_price": {
           "unbroken": {
-            "amount": 200,
-            "token": "LUNA",
-            "usd": 19.7734
+            "amount": 70,
+            "token": "SOLID",
+            "usd": 72.66
           },
           "broken": {
             "amount": 5,
