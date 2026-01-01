@@ -4144,13 +4144,13 @@
               "name": "Lion DAO",
               "address": "terravaloper1dcegyrekltswvyy0xy69ydgxn9x8x32zdtapd8",
               "staked_luna": 10000,
-              "unclaimed_rewards_luna": 0,
+              "unclaimed_rewards_luna": 889.02109,
               "staked_date": "2025-08-05T07:49:00Z",
               "prop_id": "A23"
             }
           ],
           "total_staked_luna": 10000,
-          "total_unclaimed_luna": 0,
+          "total_unclaimed_luna": 889.02109,
           "staking_apr_pct": 22.29,
           "staking_apr_date": "2025-12-28",
           "last_claim_date": null
