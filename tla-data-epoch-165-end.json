@@ -21,7 +21,12 @@
       "comments": {}
     },
     "unknown_data": null,
-    "manual_edit": null
+    "manual_edit": null,
+    "site_status": {
+      "live": false,
+      "message": "Unfortunately, TLA Stats is currently under construction. We are working on getting this fixed and hope to have stats available in the near future.",
+      "last_updated": "2025-12-28"
+    }
   },
   "vote": {
     "summary": {
@@ -4128,6 +4133,60 @@
       "total_ampLUNA": 429167.50920000003,
       "total_LUNA_equivalent": 821245.5099255665,
       "total_USD": 81194.07982981097
+    },
+    "alliances": {
+      "lion_dao": {
+        "description": "Alliance with Lion DAO ecosystem",
+        "established": "2025-08-01",
+        "chain_staking": {
+          "validators": [
+            {
+              "name": "Lion DAO",
+              "address": "terravaloper1dcegyrekltswvyy0xy69ydgxn9x8x32zdtapd8",
+              "staked_luna": 10000,
+              "unclaimed_rewards_luna": 0,
+              "staked_date": "2025-08-05T07:49:00Z",
+              "prop_id": "A23"
+            }
+          ],
+          "total_staked_luna": 10000,
+          "total_unclaimed_luna": 0,
+          "staking_apr_pct": 22.29,
+          "staking_apr_date": "2025-12-28",
+          "last_claim_date": null
+        },
+        "roar_dao_stake": {
+          "dao_name": "Lion DAO",
+          "dao_address": "terra10cux5xr5tj5xvlttmgmzxrh8xhqf86lkq47465fhtqrmmev2p5kq63dykf",
+          "staked_roar": 1000000000,
+          "voting_power_pct": 0.4506,
+          "unclaimed_rewards": {
+            "ROAR": 31194275.725527,
+            "LUNA": 0
+          },
+          "staked_date": "2025-08-05T07:43:00Z",
+          "prop_id": "A22",
+          "last_claim_date": null
+        },
+        "pixelions_dao_stake": {
+          "dao_name": "pixeLions DAO",
+          "dao_address": "terra1xrp5qcy2gdal9c2d2vl6xnk2gq3uqk4upnhdnd3wlnlwp20r2nhqrkpzjh",
+          "staked_nfts": 20,
+          "total_supply": 5000,
+          "voting_power_pct": 0.7205,
+          "unclaimed_rewards": {
+            "ROAR": 0,
+            "DROGO": 0
+          },
+          "staked_date": "2025-08-01T04:21:00Z",
+          "prop_id": "A21",
+          "last_claim_date": null
+        }
+      }
+    },
+    "council_treasury": {
+      "address": "terra1yqv0af22675wlcmgflxk4ve07vt8qlm999gk0cuw5l64r5xxgadsyg8ywv",
+      "description": "Council multisig wallet - balances queried live from chain"
     }
   },
   "nft_stats": {
