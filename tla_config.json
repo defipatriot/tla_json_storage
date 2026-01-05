@@ -2,7 +2,7 @@
   "version": 2,
   "updated": "2025-01-01",
   "site_status": {
-    "live": false,
+    "live": true,
     "message": "Unfortunately, TLA Stats is currently under construction. We are working on getting this fixed and hope to have stats available in the near future.",
     "last_updated": "2025-01-01"
   },
