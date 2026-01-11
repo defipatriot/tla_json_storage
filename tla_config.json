@@ -1,13 +1,13 @@
 {
-  "version": 2,
-  "updated": "2025-01-01",
+  "version": 1,
+  "updated": "2026-01-11",
   "site_status": {
     "live": true,
-    "message": "Unfortunately, TLA Stats is currently under construction. We are working on getting this fixed and hope to have stats available in the near future.",
-    "last_updated": "2025-01-01"
+    "message": null,
+    "last_updated": "2026-01-11"
   },
   "general": {
-    "currentEpoch": 165,
+    "currentEpoch": 167,
     "defaultPhase": "end"
   },
   "urls": {
@@ -19,7 +19,7 @@
     "weights": {
       "access": 0.15,
       "performance": 0.55,
-      "support": 0.30
+      "support": 0.3
     },
     "origin": {
       "terra_lsd": 85,
@@ -40,13 +40,11 @@
   "dex": {
     "primary": {
       "name": "Astroport",
-      "link": "https://app.astroport.fi/pools",
-      "logo": "https://raw.githubusercontent.com/defipatriot/aDAO-Image-Files/main/Astroport%20dex.png"
+      "link": "https://app.astroport.fi/pools"
     },
     "secondary": {
       "name": "Skeleton Swap",
-      "link": "https://skeletonswap.backbonelabs.io/terra/pools",
-      "logo": "https://raw.githubusercontent.com/defipatriot/aDAO-Image-Files/main/Skelton%20Swap.webp",
+      "link": "https://app.skeleton_swap.money/terra/pools",
       "enabled": true
     }
   }
