@@ -1,0 +1,4317 @@
+{
+  "meta": {
+    "version": "3.0",
+    "epoch": 177,
+    "phase": "end",
+    "generated_at": "2026-03-22T22:31:32.618Z",
+    "source": "TLA Admin Core v3",
+    "site_status": {
+      "live": true,
+      "message": null,
+      "last_updated": "2026-03-22"
+    },
+    "export_filters": {
+      "astroport": true,
+      "skeleton_swap": true,
+      "inactive": true,
+      "adao_allocations": true
+    },
+    "fallback_used": {
+      "dao_data": null,
+      "vote_rewards": null,
+      "locks": null,
+      "unclaimed": null,
+      "adao_votes": null,
+      "source_epoch": null,
+      "comments": {}
+    },
+    "unknown_data": null,
+    "manual_edit": null
+  },
+  "vote": {
+    "summary": {
+      "epoch": 177,
+      "total_vp": 24060000,
+      "rebase_amp": 156.57,
+      "rewards_usd": 243.02,
+      "end_time": "-",
+      "pool_count": 46,
+      "total_pool_count": 46
+    },
+    "dex_breakdown": {
+      "astroport": {
+        "active_count": 22,
+        "inactive_count": 4,
+        "total_depth": 3202920.2,
+        "total_vp": 77738890
+      },
+      "skeleton_swap": {
+        "active_count": 7,
+        "inactive_count": 13,
+        "total_depth": 700955.3999999999,
+        "total_vp": 11785391.04
+      }
+    },
+    "pools": [
+      {
+        "name": "LUNA-EURe",
+        "dex": "Astroport",
+        "dex_raw": "Astroport",
+        "bucket": "STABLE",
+        "is_active": true,
+        "vp": 1290000,
+        "vote_pct": 5.2,
+        "depth": 50510,
+        "adao_vp": 14761.9,
+        "adao_pct": 1.95,
+        "apr_non": 37.22,
+        "apr_amp": 44.11,
+        "apr_factor": 10,
+        "bribes": {
+          "total": 0,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 0,
+          "current_pct": 0,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": 0,
+          "change_pct": 0
+        },
+        "historical": {
+          "liq_4ep_avg": 49497.898125,
+          "liq_4ep_count": 4,
+          "vol_4ep_avg": 1233.4214388750001,
+          "vol_4ep_count": 4,
+          "efficiency": 0.024918662925043147
+        },
+        "scores": {
+          "access": 97.5,
+          "performance": 57.958333333333336,
+          "support": 20,
+          "adao_opportunity": 47.958333333333336
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "LUNA-EURe",
+        "dex": "Skeleton Swap",
+        "dex_raw": "Skeleton Swap",
+        "bucket": "STABLE",
+        "is_active": false,
+        "vp": 32080,
+        "vote_pct": 0.1,
+        "depth": 3527.68,
+        "adao_vp": 0,
+        "adao_pct": 0,
+        "apr_non": 0,
+        "apr_amp": 0,
+        "apr_factor": 0,
+        "bribes": {
+          "total": 0,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 0,
+          "current_pct": 0,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": 0,
+          "change_pct": 0
+        },
+        "historical": {
+          "liq_4ep_avg": 12357.403333333334,
+          "liq_4ep_count": 3,
+          "vol_4ep_avg": 175.74,
+          "vol_4ep_count": 3,
+          "efficiency": 0.014221434330459392
+        },
+        "scores": {
+          "access": 97.5,
+          "performance": 36.29166666666667,
+          "support": 4.999999999999999,
+          "adao_opportunity": 31.29166666666667
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "LUNA-USDC",
+        "dex": "Astroport",
+        "dex_raw": "Astroport",
+        "bucket": "STABLE",
+        "is_active": true,
+        "vp": 20070000,
+        "vote_pct": 80.8,
+        "depth": 632180,
+        "adao_vp": 652550,
+        "adao_pct": 86.2,
+        "apr_non": 47.54,
+        "apr_amp": 58.64,
+        "apr_factor": 5,
+        "bribes": {
+          "total": 14.41,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 6119581,
+          "current_pct": 99.97005455349235,
+          "next_vp": 6121415,
+          "next_pct": 100,
+          "change_vp": 1834,
+          "change_pct": 0.029945446507653628
+        },
+        "historical": {
+          "liq_4ep_avg": 631924.5333333333,
+          "liq_4ep_count": 4,
+          "vol_4ep_avg": 0,
+          "vol_4ep_count": 4,
+          "efficiency": 0
+        },
+        "scores": {
+          "access": 97.5,
+          "performance": 34.625,
+          "support": 100,
+          "adao_opportunity": -60.375
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "LUNA-USDC",
+        "dex": "Skeleton Swap",
+        "dex_raw": "Skeleton Swap",
+        "bucket": "STABLE",
+        "is_active": true,
+        "vp": 2760000,
+        "vote_pct": 11.1,
+        "depth": 104730,
+        "adao_vp": 0,
+        "adao_pct": 0,
+        "apr_non": 45.09,
+        "apr_amp": 55.95,
+        "apr_factor": 5,
+        "bribes": {
+          "total": 0,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 0,
+          "current_pct": 0,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": 0,
+          "change_pct": 0
+        },
+        "historical": {
+          "liq_4ep_avg": 118442.04333333333,
+          "liq_4ep_count": 3,
+          "vol_4ep_avg": 26221.219999999998,
+          "vol_4ep_count": 3,
+          "efficiency": 0.22138439410577543
+        },
+        "scores": {
+          "access": 97.5,
+          "performance": 82.54166666666667,
+          "support": 25.000000000000004,
+          "adao_opportunity": 62.54166666666667
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "LUNA-USDT",
+        "dex": "Astroport",
+        "dex_raw": "Astroport",
+        "bucket": "STABLE",
+        "is_active": true,
+        "vp": 609790,
+        "vote_pct": 2.5,
+        "depth": 15470,
+        "adao_vp": 89700,
+        "adao_pct": 11.85,
+        "apr_non": 67.8,
+        "apr_amp": 93.46,
+        "apr_factor": -15,
+        "bribes": {
+          "total": 0,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 0,
+          "current_pct": 0,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": 0,
+          "change_pct": 0
+        },
+        "historical": {
+          "liq_4ep_avg": 0,
+          "liq_4ep_count": 4,
+          "vol_4ep_avg": 0,
+          "vol_4ep_count": 4,
+          "efficiency": 0
+        },
+        "scores": {
+          "access": 92.5,
+          "performance": 23.875,
+          "support": 15,
+          "adao_opportunity": -6.125
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "LUNA-USDT",
+        "dex": "Skeleton Swap",
+        "dex_raw": "Skeleton Swap",
+        "bucket": "STABLE",
+        "is_active": false,
+        "vp": 64980.00000000001,
+        "vote_pct": 0.3,
+        "depth": 6182.62,
+        "adao_vp": 0,
+        "adao_pct": 0,
+        "apr_non": 0,
+        "apr_amp": 0,
+        "apr_factor": 0,
+        "bribes": {
+          "total": 0,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 0,
+          "current_pct": 0,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": 0,
+          "change_pct": 0
+        },
+        "historical": {
+          "liq_4ep_avg": 7318.816666666667,
+          "liq_4ep_count": 3,
+          "vol_4ep_avg": 2172.4966666666664,
+          "vol_4ep_count": 3,
+          "efficiency": 0.2968371480817709
+        },
+        "scores": {
+          "access": 92.5,
+          "performance": 70.95833333333334,
+          "support": 10,
+          "adao_opportunity": 60.95833333333334
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "LUNA-ASTRO",
+        "dex": "Astroport",
+        "dex_raw": "Astroport",
+        "bucket": "PROJECT",
+        "is_active": true,
+        "vp": 1680000,
+        "vote_pct": 7.1,
+        "depth": 22880,
+        "adao_vp": 180170,
+        "adao_pct": 23.8,
+        "apr_non": 56.76,
+        "apr_amp": 73.02,
+        "apr_factor": -5,
+        "bribes": {
+          "total": 49.08,
+          "pd": 50,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 33869,
+          "current_pct": 0.5532886562525323,
+          "next_vp": 36929,
+          "next_pct": 0.6032736835292785,
+          "change_vp": 3060,
+          "change_pct": 0.04998502727674614
+        },
+        "historical": {
+          "liq_4ep_avg": 0,
+          "liq_4ep_count": 4,
+          "vol_4ep_avg": 0,
+          "vol_4ep_count": 4,
+          "efficiency": 0
+        },
+        "scores": {
+          "access": 97,
+          "performance": 26.31470588235294,
+          "support": 34.13271118748813,
+          "adao_opportunity": -12.818005305135188
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "LUNA-ASTRO",
+        "dex": "Skeleton Swap",
+        "dex_raw": "Skeleton Swap",
+        "bucket": "PROJECT",
+        "is_active": false,
+        "vp": 1.04,
+        "vote_pct": 0,
+        "depth": 1.6,
+        "adao_vp": 0,
+        "adao_pct": 0,
+        "apr_non": 0,
+        "apr_amp": 0,
+        "apr_factor": 0,
+        "bribes": {
+          "total": 0,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 0,
+          "current_pct": 0,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": 0,
+          "change_pct": 0
+        },
+        "historical": {
+          "liq_4ep_avg": 2.6666666666666665,
+          "liq_4ep_count": 3,
+          "vol_4ep_avg": 0.32,
+          "vol_4ep_count": 3,
+          "efficiency": 0.12000000000000001
+        },
+        "scores": {
+          "access": 97,
+          "performance": 55.027941176470584,
+          "support": 0,
+          "adao_opportunity": 55.027941176470584
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "LUNA-CAPA",
+        "dex": "Astroport",
+        "dex_raw": "Astroport",
+        "bucket": "PROJECT",
+        "is_active": true,
+        "vp": 4560000,
+        "vote_pct": 19.1,
+        "depth": 52940,
+        "adao_vp": 0,
+        "adao_pct": 0,
+        "apr_non": 69.8,
+        "apr_amp": 98.17,
+        "apr_factor": -15,
+        "bribes": {
+          "total": 132.84,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 1241693,
+          "current_pct": 20.284413351535143,
+          "next_vp": 1233356,
+          "next_pct": 20.148219220765295,
+          "change_vp": -8337,
+          "change_pct": -0.136194130769848
+        },
+        "historical": {
+          "liq_4ep_avg": 0,
+          "liq_4ep_count": 4,
+          "vol_4ep_avg": 0,
+          "vol_4ep_count": 4,
+          "efficiency": 0
+        },
+        "scores": {
+          "access": 100,
+          "performance": 30.294117647058826,
+          "support": 100,
+          "adao_opportunity": -84.70588235294117
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "LUNA-CAPA",
+        "dex": "Skeleton Swap",
+        "dex_raw": "Skeleton Swap",
+        "bucket": "PROJECT",
+        "is_active": false,
+        "vp": 29440,
+        "vote_pct": 0.1,
+        "depth": 748.86,
+        "adao_vp": 0,
+        "adao_pct": 0,
+        "apr_non": 0,
+        "apr_amp": 0,
+        "apr_factor": 0,
+        "bribes": {
+          "total": 0,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 0,
+          "current_pct": 0,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": 0,
+          "change_pct": 0
+        },
+        "historical": {
+          "liq_4ep_avg": 368.45,
+          "liq_4ep_count": 3,
+          "vol_4ep_avg": 9.046666666666667,
+          "vol_4ep_count": 3,
+          "efficiency": 0.024553308906681143
+        },
+        "scores": {
+          "access": 100,
+          "performance": 63.93382352941177,
+          "support": 6.923076923076922,
+          "adao_opportunity": 57.01074660633485
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "LUNA-FUEL",
+        "dex": "Astroport",
+        "dex_raw": "Astroport",
+        "bucket": "PROJECT",
+        "is_active": true,
+        "vp": 3610000,
+        "vote_pct": 15.1,
+        "depth": 34360,
+        "adao_vp": 0,
+        "adao_pct": 0,
+        "apr_non": 92.5,
+        "apr_amp": 146.45,
+        "apr_factor": -35,
+        "bribes": {
+          "total": 105.21,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 2652182,
+          "current_pct": 43.32629522199362,
+          "next_vp": 2646770,
+          "next_pct": 43.23788676271738,
+          "change_vp": -5412,
+          "change_pct": -0.08840845927623775
+        },
+        "historical": {
+          "liq_4ep_avg": 0,
+          "liq_4ep_count": 4,
+          "vol_4ep_avg": 0,
+          "vol_4ep_count": 4,
+          "efficiency": 0
+        },
+        "scores": {
+          "access": 84.5,
+          "performance": 26.792647058823526,
+          "support": 73.07692307692308,
+          "adao_opportunity": -81.28427601809955
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "LUNA-ROAR",
+        "dex": "Astroport",
+        "dex_raw": "Astroport",
+        "bucket": "PROJECT",
+        "is_active": true,
+        "vp": 1460000,
+        "vote_pct": 6.1,
+        "depth": 31330,
+        "adao_vp": 26110,
+        "adao_pct": 3.45,
+        "apr_non": 33.15,
+        "apr_amp": 38.61,
+        "apr_factor": 10,
+        "bribes": {
+          "total": 42.86,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 102649,
+          "current_pct": 1.6768902351038284,
+          "next_vp": 120703,
+          "next_pct": 1.971816600415356,
+          "change_vp": 18054,
+          "change_pct": 0.2949263653115275
+        },
+        "historical": {
+          "liq_4ep_avg": 0,
+          "liq_4ep_count": 4,
+          "vol_4ep_avg": 0,
+          "vol_4ep_count": 4,
+          "efficiency": 0
+        },
+        "scores": {
+          "access": 100,
+          "performance": 27.941176470588236,
+          "support": 31.067513976761155,
+          "adao_opportunity": 6.87366249382708
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "LUNA-ROAR",
+        "dex": "Skeleton Swap",
+        "dex_raw": "Skeleton Swap",
+        "bucket": "PROJECT",
+        "is_active": false,
+        "vp": 0,
+        "vote_pct": 0,
+        "depth": 87.37,
+        "adao_vp": 0,
+        "adao_pct": 0,
+        "apr_non": 0,
+        "apr_amp": 0,
+        "apr_factor": 0,
+        "bribes": {
+          "total": 0,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 0,
+          "current_pct": 0,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": 0,
+          "change_pct": 0
+        },
+        "historical": {
+          "liq_4ep_avg": 60.423333333333325,
+          "liq_4ep_count": 3,
+          "vol_4ep_avg": 0.8766666666666666,
+          "vol_4ep_count": 3,
+          "efficiency": 0.014508743862746181
+        },
+        "scores": {
+          "access": 100,
+          "performance": 43.455882352941174,
+          "support": 0,
+          "adao_opportunity": 43.455882352941174
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "LUNA-SOLID",
+        "dex": "Astroport",
+        "dex_raw": "Astroport",
+        "bucket": "PROJECT",
+        "is_active": true,
+        "vp": 340410,
+        "vote_pct": 1.4,
+        "depth": 14040.1,
+        "adao_vp": 51090,
+        "adao_pct": 6.75,
+        "apr_non": 14.81,
+        "apr_amp": 15.5,
+        "apr_factor": 10,
+        "bribes": {
+          "total": 0,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 0,
+          "current_pct": 0,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": 0,
+          "change_pct": 0
+        },
+        "historical": {
+          "liq_4ep_avg": 0,
+          "liq_4ep_count": 4,
+          "vol_4ep_avg": 0,
+          "vol_4ep_count": 4,
+          "efficiency": 0
+        },
+        "scores": {
+          "access": 100,
+          "performance": 25.58823529411765,
+          "support": 13.846153846153845,
+          "adao_opportunity": 21.742081447963805
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "LUNA-SOLID",
+        "dex": "Skeleton Swap",
+        "dex_raw": "Skeleton Swap",
+        "bucket": "PROJECT",
+        "is_active": false,
+        "vp": 17580,
+        "vote_pct": 0.1,
+        "depth": 81.33,
+        "adao_vp": 0,
+        "adao_pct": 0,
+        "apr_non": 0,
+        "apr_amp": 0,
+        "apr_factor": 0,
+        "bribes": {
+          "total": 0,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 0,
+          "current_pct": 0,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": 0,
+          "change_pct": 0
+        },
+        "historical": {
+          "liq_4ep_avg": 50.14000000000001,
+          "liq_4ep_count": 3,
+          "vol_4ep_avg": 0.88,
+          "vol_4ep_count": 3,
+          "efficiency": 0.01755085759872357
+        },
+        "scores": {
+          "access": 100,
+          "performance": 49.779411764705884,
+          "support": 4.615384615384615,
+          "adao_opportunity": 45.16402714932127
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "LUNA-ampLUNA",
+        "dex": "Skeleton Swap",
+        "dex_raw": "Skeleton Swap",
+        "bucket": "PROJECT",
+        "is_active": false,
+        "vp": 0,
+        "vote_pct": 0,
+        "depth": 100530,
+        "adao_vp": 0,
+        "adao_pct": 0,
+        "apr_non": 0,
+        "apr_amp": 0,
+        "apr_factor": 0,
+        "bribes": {
+          "total": 0,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 0,
+          "current_pct": 0,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": 0,
+          "change_pct": 0
+        },
+        "historical": {
+          "liq_4ep_avg": 69818.34333333332,
+          "liq_4ep_count": 3,
+          "vol_4ep_avg": 371.52666666666664,
+          "vol_4ep_count": 3,
+          "efficiency": 0.005321333175908929
+        },
+        "scores": {
+          "access": 100,
+          "performance": 58.970588235294116,
+          "support": 0,
+          "adao_opportunity": 58.970588235294116
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "LUNA-ampLUNA",
+        "dex": "Astroport",
+        "dex_raw": "Astroport",
+        "bucket": "PROJECT",
+        "is_active": true,
+        "vp": 4530000,
+        "vote_pct": 19,
+        "depth": 980000,
+        "adao_vp": 393570,
+        "adao_pct": 51.99,
+        "apr_non": 29.6,
+        "apr_amp": 33.77,
+        "apr_factor": 10,
+        "bribes": {
+          "total": 131.93,
+          "pd": 140,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 383755,
+          "current_pct": 6.269065536381742,
+          "next_vp": 382386,
+          "next_pct": 6.246688922349338,
+          "change_vp": -1369,
+          "change_pct": -0.022376614032403985
+        },
+        "historical": {
+          "liq_4ep_avg": 1046428.4627083333,
+          "liq_4ep_count": 4,
+          "vol_4ep_avg": 33693.18042266666,
+          "vol_4ep_count": 4,
+          "efficiency": 0.0321982645000529
+        },
+        "scores": {
+          "access": 100,
+          "performance": 90.625,
+          "support": 61.94980658241113,
+          "adao_opportunity": 38.67519341758887
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "LUNA-boneLUNA",
+        "dex": "Astroport",
+        "dex_raw": "Astroport",
+        "bucket": "PROJECT",
+        "is_active": false,
+        "vp": 45540,
+        "vote_pct": 0.2,
+        "depth": 7138.53,
+        "adao_vp": 41480,
+        "adao_pct": 5.48,
+        "apr_non": 0,
+        "apr_amp": 0,
+        "apr_factor": 0,
+        "bribes": {
+          "total": 0,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 0,
+          "current_pct": 0,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": 0,
+          "change_pct": 0
+        },
+        "historical": {
+          "liq_4ep_avg": 0,
+          "liq_4ep_count": 4,
+          "vol_4ep_avg": 0,
+          "vol_4ep_count": 4,
+          "efficiency": 0
+        },
+        "scores": {
+          "access": 100,
+          "performance": 24.411764705882355,
+          "support": 9.23076923076923,
+          "adao_opportunity": 15.180995475113125
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "LUNA-boneLUNA",
+        "dex": "Skeleton Swap",
+        "dex_raw": "Skeleton Swap",
+        "bucket": "PROJECT",
+        "is_active": true,
+        "vp": 2700000,
+        "vote_pct": 11.3,
+        "depth": 243210,
+        "adao_vp": 0,
+        "adao_pct": 0,
+        "apr_non": 35.36,
+        "apr_amp": 41.75,
+        "apr_factor": 10,
+        "bribes": {
+          "total": 0,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 0,
+          "current_pct": 0,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": 0,
+          "change_pct": 0
+        },
+        "historical": {
+          "liq_4ep_avg": 169963.46,
+          "liq_4ep_count": 3,
+          "vol_4ep_avg": 0,
+          "vol_4ep_count": 3,
+          "efficiency": 0
+        },
+        "scores": {
+          "access": 100,
+          "performance": 33.82352941176471,
+          "support": 20.769230769230766,
+          "adao_opportunity": 23.054298642533944
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "LUNA-stLUNA",
+        "dex": "Astroport",
+        "dex_raw": "Astroport",
+        "bucket": "PROJECT",
+        "is_active": true,
+        "vp": 277090,
+        "vote_pct": 1.2,
+        "depth": 5849.08,
+        "adao_vp": 0,
+        "adao_pct": 0,
+        "apr_non": 40.94,
+        "apr_amp": 49.74,
+        "apr_factor": 5,
+        "bribes": {
+          "total": 0,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 0,
+          "current_pct": 0,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": 0,
+          "change_pct": 0
+        },
+        "historical": {
+          "liq_4ep_avg": 0,
+          "liq_4ep_count": 4,
+          "vol_4ep_avg": 0,
+          "vol_4ep_count": 4,
+          "efficiency": 0
+        },
+        "scores": {
+          "access": 100,
+          "performance": 23.235294117647058,
+          "support": 11.538461538461538,
+          "adao_opportunity": 16.696832579185518
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "LUNA-stLUNA",
+        "dex": "Skeleton Swap",
+        "dex_raw": "Skeleton Swap",
+        "bucket": "PROJECT",
+        "is_active": false,
+        "vp": 0,
+        "vote_pct": 0,
+        "depth": 1.39,
+        "adao_vp": 0,
+        "adao_pct": 0,
+        "apr_non": 0,
+        "apr_amp": 0,
+        "apr_factor": 0,
+        "bribes": {
+          "total": 0,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 0,
+          "current_pct": 0,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": 0,
+          "change_pct": 0
+        },
+        "historical": {
+          "liq_4ep_avg": 1.26,
+          "liq_4ep_count": 3,
+          "vol_4ep_avg": 0,
+          "vol_4ep_count": 3,
+          "efficiency": 0
+        },
+        "scores": {
+          "access": 100,
+          "performance": 16.176470588235293,
+          "support": 0,
+          "adao_opportunity": 16.176470588235293
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "USDC-SOLID",
+        "dex": "Astroport",
+        "dex_raw": "Astroport",
+        "bucket": "PROJECT",
+        "is_active": true,
+        "vp": 4560000,
+        "vote_pct": 19.1,
+        "depth": 103120,
+        "adao_vp": 34440,
+        "adao_pct": 4.55,
+        "apr_non": 31.69,
+        "apr_amp": 36.6,
+        "apr_factor": 10,
+        "bribes": {
+          "total": 132.84,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 1707258,
+          "current_pct": 27.889921583080046,
+          "next_vp": 1701271,
+          "next_pct": 27.792114810223357,
+          "change_vp": -5987,
+          "change_pct": -0.09780677285668915
+        },
+        "historical": {
+          "liq_4ep_avg": 102933.69604166668,
+          "liq_4ep_count": 4,
+          "vol_4ep_avg": 707.2022469583331,
+          "vol_4ep_count": 4,
+          "efficiency": 0.006870463940904868
+        },
+        "scores": {
+          "access": 92.5,
+          "performance": 66.52205882352942,
+          "support": 91.02564102564102,
+          "adao_opportunity": -14.503582202111602
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "USDC-SOLID",
+        "dex": "Skeleton Swap",
+        "dex_raw": "Skeleton Swap",
+        "bucket": "PROJECT",
+        "is_active": false,
+        "vp": 22680,
+        "vote_pct": 0.1,
+        "depth": 414.78,
+        "adao_vp": 0,
+        "adao_pct": 0,
+        "apr_non": 0,
+        "apr_amp": 0,
+        "apr_factor": 0,
+        "bribes": {
+          "total": 0,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 0,
+          "current_pct": 0,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": 0,
+          "change_pct": 0
+        },
+        "historical": {
+          "liq_4ep_avg": 214.7266666666667,
+          "liq_4ep_count": 3,
+          "vol_4ep_avg": 0.9566666666666667,
+          "vol_4ep_count": 3,
+          "efficiency": 0.004455276475519264
+        },
+        "scores": {
+          "access": 92.5,
+          "performance": 36.63235294117647,
+          "support": 2.307692307692306,
+          "adao_opportunity": 34.324660633484164
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "LUNA-ATOM",
+        "dex": "Astroport",
+        "dex_raw": "Astroport",
+        "bucket": "BLUECHIP",
+        "is_active": true,
+        "vp": 2430000,
+        "vote_pct": 13.5,
+        "depth": 45650,
+        "adao_vp": 94240,
+        "adao_pct": 12.45,
+        "apr_non": 39.76,
+        "apr_amp": 47.43,
+        "apr_factor": 10,
+        "bribes": {
+          "total": 18.84,
+          "pd": 20,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 715419,
+          "current_pct": 11.687158846688108,
+          "next_vp": 451762,
+          "next_pct": 7.38001946109147,
+          "change_vp": -263657,
+          "change_pct": -4.3071393855966384
+        },
+        "historical": {
+          "liq_4ep_avg": 0,
+          "liq_4ep_count": 4,
+          "vol_4ep_avg": 0,
+          "vol_4ep_count": 4,
+          "efficiency": 0
+        },
+        "scores": {
+          "access": 99.5,
+          "performance": 31.288636363636364,
+          "support": 78.47146410375134,
+          "adao_opportunity": -37.18282774011498
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "LUNA-ATOM",
+        "dex": "Skeleton Swap",
+        "dex_raw": "Skeleton Swap",
+        "bucket": "BLUECHIP",
+        "is_active": true,
+        "vp": 512630,
+        "vote_pct": 2.8,
+        "depth": 9614.87,
+        "adao_vp": 0,
+        "adao_pct": 0,
+        "apr_non": 45.48,
+        "apr_amp": 56.54,
+        "apr_factor": 5,
+        "bribes": {
+          "total": 0,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 0,
+          "current_pct": 0,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": 0,
+          "change_pct": 0
+        },
+        "historical": {
+          "liq_4ep_avg": 12534.519999999999,
+          "liq_4ep_count": 3,
+          "vol_4ep_avg": 1755.1333333333332,
+          "vol_4ep_count": 3,
+          "efficiency": 0.14002397645329326
+        },
+        "scores": {
+          "access": 99.5,
+          "performance": 73.69123376623376,
+          "support": 11.25,
+          "adao_opportunity": 67.44123376623376
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "LUNA-INJ",
+        "dex": "Astroport",
+        "dex_raw": "Astroport",
+        "bucket": "BLUECHIP",
+        "is_active": false,
+        "vp": 97520,
+        "vote_pct": 0.5,
+        "depth": 853.15,
+        "adao_vp": 0,
+        "adao_pct": 0,
+        "apr_non": 0,
+        "apr_amp": 0,
+        "apr_factor": 0,
+        "bribes": {
+          "total": 0,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 0,
+          "current_pct": 0,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": 0,
+          "change_pct": 0
+        },
+        "historical": {
+          "liq_4ep_avg": 445.77125,
+          "liq_4ep_count": 4,
+          "vol_4ep_avg": 11.867799166666666,
+          "vol_4ep_count": 4,
+          "efficiency": 0.02662306994151522
+        },
+        "scores": {
+          "access": 99.5,
+          "performance": 45.704220779220776,
+          "support": 3.75,
+          "adao_opportunity": 41.954220779220776
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "LUNA-INJ",
+        "dex": "Skeleton Swap",
+        "dex_raw": "Skeleton Swap",
+        "bucket": "BLUECHIP",
+        "is_active": false,
+        "vp": 0,
+        "vote_pct": 0,
+        "depth": 522.62,
+        "adao_vp": 0,
+        "adao_pct": 0,
+        "apr_non": 0,
+        "apr_amp": 0,
+        "apr_factor": 0,
+        "bribes": {
+          "total": 0,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 0,
+          "current_pct": 0,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": 0,
+          "change_pct": 0
+        },
+        "historical": {
+          "liq_4ep_avg": 809.0666666666666,
+          "liq_4ep_count": 3,
+          "vol_4ep_avg": 32.026666666666664,
+          "vol_4ep_count": 3,
+          "efficiency": 0.03958470665787739
+        },
+        "scores": {
+          "access": 99.5,
+          "performance": 56.093831168831166,
+          "support": 0,
+          "adao_opportunity": 56.093831168831166
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "LUNA-PAXG",
+        "dex": "Astroport",
+        "dex_raw": "Astroport",
+        "bucket": "BLUECHIP",
+        "is_active": true,
+        "vp": 225150,
+        "vote_pct": 1.2,
+        "depth": 1866.91,
+        "adao_vp": 0,
+        "adao_pct": 0,
+        "apr_non": 0,
+        "apr_amp": 0,
+        "apr_factor": 0,
+        "bribes": {
+          "total": 0,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 0,
+          "current_pct": 0,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": 0,
+          "change_pct": 0
+        },
+        "historical": {
+          "liq_4ep_avg": 4069.3958333333335,
+          "liq_4ep_count": 4,
+          "vol_4ep_avg": 50.404656750000015,
+          "vol_4ep_count": 4,
+          "efficiency": 0.012386275214891648
+        },
+        "scores": {
+          "access": 87,
+          "performance": 51.426623376623375,
+          "support": 7.5,
+          "adao_opportunity": 43.926623376623375
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "LUNA-wBNB.axl",
+        "dex": "Astroport",
+        "dex_raw": "Astroport",
+        "bucket": "BLUECHIP",
+        "is_active": false,
+        "vp": 0,
+        "vote_pct": 0,
+        "depth": 439.01,
+        "adao_vp": 0,
+        "adao_pct": 0,
+        "apr_non": 0,
+        "apr_amp": 0,
+        "apr_factor": 0,
+        "bribes": {
+          "total": 0,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 0,
+          "current_pct": 0,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": 0,
+          "change_pct": 0
+        },
+        "historical": {
+          "liq_4ep_avg": 0,
+          "liq_4ep_count": 4,
+          "vol_4ep_avg": 0,
+          "vol_4ep_count": 4,
+          "efficiency": 0
+        },
+        "scores": {
+          "access": 89.5,
+          "performance": 15.243181818181817,
+          "support": 0,
+          "adao_opportunity": 15.243181818181817
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "LUNA-wBTC.atom",
+        "dex": "Astroport",
+        "dex_raw": "Astroport",
+        "bucket": "BLUECHIP",
+        "is_active": true,
+        "vp": 3440000,
+        "vote_pct": 19.1,
+        "depth": 75430,
+        "adao_vp": 178730,
+        "adao_pct": 23.61,
+        "apr_non": 38.18,
+        "apr_amp": 45.49,
+        "apr_factor": 10,
+        "bribes": {
+          "total": 18.84,
+          "pd": 20,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 0,
+          "current_pct": 0,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": 0,
+          "change_pct": 0
+        },
+        "historical": {
+          "liq_4ep_avg": 0,
+          "liq_4ep_count": 4,
+          "vol_4ep_avg": 0,
+          "vol_4ep_count": 4,
+          "efficiency": 0
+        },
+        "scores": {
+          "access": 100,
+          "performance": 33.18181818181819,
+          "support": 46.25,
+          "adao_opportunity": -3.068181818181813
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "LUNA-wBTC.axl",
+        "dex": "Astroport",
+        "dex_raw": "Astroport",
+        "bucket": "BLUECHIP",
+        "is_active": true,
+        "vp": 2330000,
+        "vote_pct": 13,
+        "depth": 38430,
+        "adao_vp": 245500,
+        "adao_pct": 32.43,
+        "apr_non": 38.18,
+        "apr_amp": 45.49,
+        "apr_factor": 10,
+        "bribes": {
+          "total": 18.84,
+          "pd": 20,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 1825,
+          "current_pct": 0.029820030854569766,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": -1825,
+          "change_pct": -0.029820030854569766
+        },
+        "historical": {
+          "liq_4ep_avg": 0,
+          "liq_4ep_count": 4,
+          "vol_4ep_avg": 0,
+          "vol_4ep_count": 4,
+          "efficiency": 0
+        },
+        "scores": {
+          "access": 85,
+          "performance": 27.295454545454547,
+          "support": 28.81881545581824,
+          "adao_opportunity": 8.476639089636308
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "LUNA-wBTC.osmo",
+        "dex": "Skeleton Swap",
+        "dex_raw": "Skeleton Swap",
+        "bucket": "BLUECHIP",
+        "is_active": true,
+        "vp": 1600000,
+        "vote_pct": 8.9,
+        "depth": 21820,
+        "adao_vp": 0,
+        "adao_pct": 0,
+        "apr_non": 65.84,
+        "apr_amp": 90.78,
+        "apr_factor": -15,
+        "bribes": {
+          "total": 0,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 0,
+          "current_pct": 0,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": 0,
+          "change_pct": 0
+        },
+        "historical": {
+          "liq_4ep_avg": 31887.430000000004,
+          "liq_4ep_count": 3,
+          "vol_4ep_avg": 5212.956666666667,
+          "vol_4ep_count": 3,
+          "efficiency": 0.16347998777783804
+        },
+        "scores": {
+          "access": 85,
+          "performance": 85.47727272727272,
+          "support": 15,
+          "adao_opportunity": 55.47727272727272
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "USDC-EURe",
+        "dex": "Astroport",
+        "dex_raw": "Astroport",
+        "bucket": "BLUECHIP",
+        "is_active": true,
+        "vp": 7360000,
+        "vote_pct": 40.8,
+        "depth": 273670,
+        "adao_vp": 193720,
+        "adao_pct": 25.59,
+        "apr_non": 13.65,
+        "apr_amp": 14.23,
+        "apr_factor": 10,
+        "bribes": {
+          "total": 65.96,
+          "pd": 70,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 2708843,
+          "current_pct": 44.25190703439249,
+          "next_vp": 2976690,
+          "next_pct": 48.62749359828902,
+          "change_vp": 267847,
+          "change_pct": 4.375586563896533
+        },
+        "historical": {
+          "liq_4ep_avg": 260463.83833333332,
+          "liq_4ep_count": 4,
+          "vol_4ep_avg": 3014.9744502083327,
+          "vol_4ep_count": 4,
+          "efficiency": 0.011575405129175223
+        },
+        "scores": {
+          "access": 85,
+          "performance": 64.17857142857143,
+          "support": 100,
+          "adao_opportunity": -25.82142857142857
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "USDC-EURe",
+        "dex": "Skeleton Swap",
+        "dex_raw": "Skeleton Swap",
+        "bucket": "BLUECHIP",
+        "is_active": false,
+        "vp": 0,
+        "vote_pct": 0,
+        "depth": 4179.86,
+        "adao_vp": 0,
+        "adao_pct": 0,
+        "apr_non": 0,
+        "apr_amp": 0,
+        "apr_factor": 0,
+        "bribes": {
+          "total": 0,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 0,
+          "current_pct": 0,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": 0,
+          "change_pct": 0
+        },
+        "historical": {
+          "liq_4ep_avg": 2105.6433333333334,
+          "liq_4ep_count": 3,
+          "vol_4ep_avg": 5.760000000000001,
+          "vol_4ep_count": 3,
+          "efficiency": 0.002735506013205782
+        },
+        "scores": {
+          "access": 85,
+          "performance": 28.594155844155846,
+          "support": 0,
+          "adao_opportunity": 28.594155844155846
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "ATOM-stATOM",
+        "dex": "Astroport",
+        "dex_raw": "Astroport",
+        "bucket": "SINGLE",
+        "is_active": false,
+        "vp": 0,
+        "vote_pct": 0,
+        "depth": 1282.09,
+        "adao_vp": 0,
+        "adao_pct": 0,
+        "apr_non": 0,
+        "apr_amp": 0,
+        "apr_factor": 0,
+        "bribes": {
+          "total": 0,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 0,
+          "current_pct": 0,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": 0,
+          "change_pct": 0
+        },
+        "historical": {
+          "liq_4ep_avg": 277.47375,
+          "liq_4ep_count": 4,
+          "vol_4ep_avg": 0.25651625,
+          "vol_4ep_count": 4,
+          "efficiency": 0.0009244703327792269
+        },
+        "scores": {
+          "access": 97.5,
+          "performance": 27.958333333333332,
+          "support": 0,
+          "adao_opportunity": 27.958333333333332
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "ATOM-stATOM",
+        "dex": "Skeleton Swap",
+        "dex_raw": "Skeleton Swap",
+        "bucket": "SINGLE",
+        "is_active": false,
+        "vp": 0,
+        "vote_pct": 0,
+        "depth": 0.04,
+        "adao_vp": 0,
+        "adao_pct": 0,
+        "apr_non": 0,
+        "apr_amp": 0,
+        "apr_factor": 0,
+        "bribes": {
+          "total": 0,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 0,
+          "current_pct": 0,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": 0,
+          "change_pct": 0
+        },
+        "historical": {
+          "liq_4ep_avg": 0,
+          "liq_4ep_count": 3,
+          "vol_4ep_avg": 0,
+          "vol_4ep_count": 3,
+          "efficiency": 0
+        },
+        "scores": {
+          "access": 97.5,
+          "performance": 16.291666666666668,
+          "support": 0,
+          "adao_opportunity": 16.291666666666668
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "LUNA-arbLUNA",
+        "dex": "Astroport",
+        "dex_raw": "Astroport",
+        "bucket": "SINGLE",
+        "is_active": true,
+        "vp": 4340000,
+        "vote_pct": 19,
+        "depth": 61470,
+        "adao_vp": 0,
+        "adao_pct": 0,
+        "apr_non": 72.67,
+        "apr_amp": 102.41,
+        "apr_factor": -25,
+        "bribes": {
+          "total": 94.23,
+          "pd": 100,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 2744439,
+          "current_pct": 44.833405422801356,
+          "next_vp": 2747565,
+          "next_pct": 44.88447822184005,
+          "change_vp": 3126,
+          "change_pct": 0.05107279903869255
+        },
+        "historical": {
+          "liq_4ep_avg": 40884.25895833333,
+          "liq_4ep_count": 4,
+          "vol_4ep_avg": 719.8078327916666,
+          "vol_4ep_count": 4,
+          "efficiency": 0.017605989472017813
+        },
+        "scores": {
+          "access": 100,
+          "performance": 80.83333333333334,
+          "support": 74,
+          "adao_opportunity": -18.166666666666657
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "LUNA-arbLUNA",
+        "dex": "Skeleton Swap",
+        "dex_raw": "Skeleton Swap",
+        "bucket": "SINGLE",
+        "is_active": false,
+        "vp": 16000,
+        "vote_pct": 0.1,
+        "depth": 1362.38,
+        "adao_vp": 0,
+        "adao_pct": 0,
+        "apr_non": 0,
+        "apr_amp": 0,
+        "apr_factor": 0,
+        "bribes": {
+          "total": 0,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 0,
+          "current_pct": 0,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": 0,
+          "change_pct": 0
+        },
+        "historical": {
+          "liq_4ep_avg": 1026.92,
+          "liq_4ep_count": 3,
+          "vol_4ep_avg": 9.013333333333334,
+          "vol_4ep_count": 3,
+          "efficiency": 0.008777055012399537
+        },
+        "scores": {
+          "access": 100,
+          "performance": 57.5,
+          "support": 2.9999999999999996,
+          "adao_opportunity": 54.5
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "USDC-USDT",
+        "dex": "Astroport",
+        "dex_raw": "Astroport",
+        "bucket": "SINGLE",
+        "is_active": true,
+        "vp": 6080000,
+        "vote_pct": 26.6,
+        "depth": 269560,
+        "adao_vp": 95300,
+        "adao_pct": 12.59,
+        "apr_non": 1.07,
+        "apr_amp": 0.72,
+        "apr_factor": 10,
+        "bribes": {
+          "total": 131.93,
+          "pd": 140,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 2533888,
+          "current_pct": 41.393837687444076,
+          "next_vp": 2539107,
+          "next_pct": 41.479084434828316,
+          "change_vp": 5219,
+          "change_pct": 0.08524674738423954
+        },
+        "historical": {
+          "liq_4ep_avg": 321974.77875,
+          "liq_4ep_count": 4,
+          "vol_4ep_avg": 1770.0977285000001,
+          "vol_4ep_count": 4,
+          "efficiency": 0.005497628526594647
+        },
+        "scores": {
+          "access": 80,
+          "performance": 74.5,
+          "support": 87,
+          "adao_opportunity": -2.5
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "USDC-USDT",
+        "dex": "Skeleton Swap",
+        "dex_raw": "Skeleton Swap",
+        "bucket": "SINGLE",
+        "is_active": true,
+        "vp": 1160000,
+        "vote_pct": 5.1,
+        "depth": 76840,
+        "adao_vp": 0,
+        "adao_pct": 0,
+        "apr_non": 3.73,
+        "apr_amp": 3.47,
+        "apr_factor": 10,
+        "bribes": {
+          "total": 0,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 0,
+          "current_pct": 0,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": 0,
+          "change_pct": 0
+        },
+        "historical": {
+          "liq_4ep_avg": 89611.30333333333,
+          "liq_4ep_count": 3,
+          "vol_4ep_avg": 609.3666666666667,
+          "vol_4ep_count": 3,
+          "efficiency": 0.006800109405840952
+        },
+        "scores": {
+          "access": 80,
+          "performance": 67,
+          "support": 18,
+          "adao_opportunity": 59
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "ampCAPA",
+        "dex": "Single",
+        "dex_raw": "Single (Astroport)",
+        "bucket": "SINGLE",
+        "is_active": true,
+        "vp": 6130000,
+        "vote_pct": 26.8,
+        "depth": 185420,
+        "adao_vp": 0,
+        "adao_pct": 0,
+        "apr_non": 31.97,
+        "apr_amp": 35.57,
+        "apr_factor": 10,
+        "bribes": {
+          "total": 132.84,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 843080,
+          "current_pct": 13.772631474101496,
+          "next_vp": 835264,
+          "next_pct": 13.644949476504758,
+          "change_vp": -7816,
+          "change_pct": -0.12768199759673848
+        },
+        "historical": {
+          "liq_4ep_avg": 0,
+          "liq_4ep_count": 4,
+          "vol_4ep_avg": 0,
+          "vol_4ep_count": 4,
+          "efficiency": 0
+        },
+        "scores": {
+          "access": 50,
+          "performance": 24.166666666666668,
+          "support": 85.41712478444197,
+          "adao_opportunity": -51.250458117775295
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "ampROAR-ROAR",
+        "dex": "Astroport",
+        "dex_raw": "Astroport",
+        "bucket": "SINGLE",
+        "is_active": true,
+        "vp": 433020,
+        "vote_pct": 1.9,
+        "depth": 5501.33,
+        "adao_vp": 0,
+        "adao_pct": 0,
+        "apr_non": 57.29,
+        "apr_amp": 75.63,
+        "apr_factor": -5,
+        "bribes": {
+          "total": 0,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 0,
+          "current_pct": 0,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": 0,
+          "change_pct": 0
+        },
+        "historical": {
+          "liq_4ep_avg": 0,
+          "liq_4ep_count": 4,
+          "vol_4ep_avg": 0,
+          "vol_4ep_count": 4,
+          "efficiency": 0
+        },
+        "scores": {
+          "access": 95,
+          "performance": 20.916666666666668,
+          "support": 5.999999999999999,
+          "adao_opportunity": 9.916666666666668
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "ampROAR-ROAR",
+        "dex": "Skeleton Swap",
+        "dex_raw": "Skeleton Swap",
+        "bucket": "SINGLE",
+        "is_active": true,
+        "vp": 1700000,
+        "vote_pct": 7.4,
+        "depth": 36620,
+        "adao_vp": 0,
+        "adao_pct": 0,
+        "apr_non": 42.45,
+        "apr_amp": 51.97,
+        "apr_factor": 5,
+        "bribes": {
+          "total": 34.15,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 0,
+          "current_pct": 0,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": 0,
+          "change_pct": 0
+        },
+        "historical": {
+          "liq_4ep_avg": 0,
+          "liq_4ep_count": 3,
+          "vol_4ep_avg": 0,
+          "vol_4ep_count": 3,
+          "efficiency": 0
+        },
+        "scores": {
+          "access": 95,
+          "performance": 22.583333333333336,
+          "support": 31,
+          "adao_opportunity": -3.4166666666666643
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "wBTC.axl-wBTC.osmo",
+        "dex": "Astroport",
+        "dex_raw": "Astroport",
+        "bucket": "SINGLE",
+        "is_active": true,
+        "vp": 960000,
+        "vote_pct": 4.2,
+        "depth": 79850,
+        "adao_vp": 148300,
+        "adao_pct": 19.59,
+        "apr_non": 2.26,
+        "apr_amp": 1.93,
+        "apr_factor": 10,
+        "bribes": {
+          "total": 0,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 0,
+          "current_pct": 0,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": 0,
+          "change_pct": 0
+        },
+        "historical": {
+          "liq_4ep_avg": 0,
+          "liq_4ep_count": 4,
+          "vol_4ep_avg": 0,
+          "vol_4ep_count": 4,
+          "efficiency": 0
+        },
+        "scores": {
+          "access": 60,
+          "performance": 20.666666666666664,
+          "support": 12,
+          "adao_opportunity": 18.666666666666664
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "wBTC.osmo-wBTC.axl",
+        "dex": "Skeleton Swap",
+        "dex_raw": "Skeleton Swap",
+        "bucket": "SINGLE",
+        "is_active": true,
+        "vp": 1170000,
+        "vote_pct": 5.1,
+        "depth": 90480,
+        "adao_vp": 0,
+        "adao_pct": 0,
+        "apr_non": 2.82,
+        "apr_amp": 2.51,
+        "apr_factor": 10,
+        "bribes": {
+          "total": 0,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 0,
+          "current_pct": 0,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": 0,
+          "change_pct": 0
+        },
+        "historical": {
+          "liq_4ep_avg": 88948.21666666667,
+          "liq_4ep_count": 3,
+          "vol_4ep_avg": 99.68666666666667,
+          "vol_4ep_count": 3,
+          "efficiency": 0.0011207269847830937
+        },
+        "scores": {
+          "access": 60,
+          "performance": 46.5,
+          "support": 15,
+          "adao_opportunity": 41.5
+        },
+        "included_in_grade": true
+      },
+      {
+        "name": "xASTRO",
+        "dex": "Single",
+        "dex_raw": "Single (Astroport)",
+        "bucket": "SINGLE",
+        "is_active": true,
+        "vp": 880370,
+        "vote_pct": 3.8,
+        "depth": 213680,
+        "adao_vp": 0,
+        "adao_pct": 0,
+        "apr_non": 76.93,
+        "apr_amp": 0,
+        "apr_factor": -25,
+        "bribes": {
+          "total": 0,
+          "pd": 0,
+          "other": 0
+        },
+        "votion": {
+          "current_vp": 0,
+          "current_pct": 0,
+          "next_vp": 0,
+          "next_pct": 0,
+          "change_vp": 0,
+          "change_pct": 0
+        },
+        "historical": {
+          "liq_4ep_avg": 0,
+          "liq_4ep_count": 4,
+          "vol_4ep_avg": 0,
+          "vol_4ep_count": 4,
+          "efficiency": 0
+        },
+        "scores": {
+          "access": 50,
+          "performance": 25.833333333333332,
+          "support": 9,
+          "adao_opportunity": -8.166666666666668
+        },
+        "included_in_grade": true
+      }
+    ]
+  },
+  "liquidity": {
+    "summary": {
+      "tvl": 2300000,
+      "rewards_per_year": 970000,
+      "rewards_per_epoch": 18653.846153846152,
+      "active_pool_count": 31,
+      "inactive_pool_count": 45
+    },
+    "adao_deposits": {
+      "total_usd": 5403.258530353288,
+      "total_usd_source": "Calculated",
+      "calculated_usd": 5403.258530353288,
+      "avg_apr": 35.28,
+      "tokens": [
+        {
+          "symbol": "CAPA",
+          "amount": 220571.4634826,
+          "price": 0.00133073,
+          "usd": 293.5210636002003
+        },
+        {
+          "symbol": "LUNA",
+          "amount": 46694.28760410891,
+          "price": 0.058538,
+          "usd": 2733.3902077693274
+        },
+        {
+          "symbol": "ROAR",
+          "amount": 1894795164.6834767,
+          "price": 1.98036e-7,
+          "usd": 375.237655233257
+        },
+        {
+          "symbol": "ampLUNA",
+          "amount": 11076.732173274719,
+          "price": 0.11895236073241953,
+          "usd": 1317.6034412117717
+        },
+        {
+          "symbol": "ampCAPA",
+          "amount": 365596.69982,
+          "price": 0.0014711722401574443,
+          "usd": 537.8557158683581
+        },
+        {
+          "symbol": "ampROAR",
+          "amount": 550373174.4809325,
+          "price": 2.2812172553191807e-7,
+          "usd": 125.55207824906974
+        },
+        {
+          "symbol": "xASTRO",
+          "amount": 20039.304575,
+          "price": 0.0010029474,
+          "usd": 20.098368421304354
+        }
+      ]
+    },
+    "unclaimed_rewards": {
+      "total_usd": 236.35,
+      "zAssets": 2792.42,
+      "ampLUNA": 1982.83
+    },
+    "vote_rewards": {
+      "by_token": {
+        "ASTRO": 10060.88,
+        "LUNA": 3742.76,
+        "CAPA": 8193.92,
+        "ROAR": 21910000,
+        "FUEL": 862.94
+      },
+      "periods": [
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176
+      ]
+    },
+    "active_pools": [
+      {
+        "name": "LUNA-EURe LP",
+        "normalized_name": "LUNA-EURe",
+        "dex": "Astroport",
+        "type": "pcl",
+        "bucket": "STABLE",
+        "depth": 50570,
+        "tla_staked": 44490,
+        "apr": {
+          "non_amp": 37.22,
+          "amplified": 44.11
+        },
+        "rewards_per_year": 20740,
+        "adao_deposit": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-USDC LP",
+        "normalized_name": "LUNA-USDC",
+        "dex": "Astroport",
+        "type": "pcl",
+        "bucket": "STABLE",
+        "depth": 632860,
+        "tla_staked": 564780,
+        "apr": {
+          "non_amp": 47.54,
+          "amplified": 58.64
+        },
+        "rewards_per_year": 313710,
+        "adao_deposit": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-USDC LP",
+        "normalized_name": "LUNA-USDC",
+        "dex": "Skeleton Swap",
+        "type": "xyk",
+        "bucket": "STABLE",
+        "depth": 104840,
+        "tla_staked": 80170,
+        "apr": {
+          "non_amp": 45.09,
+          "amplified": 55.95
+        },
+        "rewards_per_year": 44170,
+        "adao_deposit": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-USDT LP",
+        "normalized_name": "LUNA-USDT",
+        "dex": "Astroport",
+        "type": "pcl",
+        "bucket": "STABLE",
+        "depth": 15480,
+        "tla_staked": 12662.45,
+        "apr": {
+          "non_amp": 67.8,
+          "amplified": 93.46
+        },
+        "rewards_per_year": 9709,
+        "adao_deposit": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-ASTRO LP",
+        "normalized_name": "LUNA-ASTRO",
+        "dex": "Astroport",
+        "type": "pcl",
+        "bucket": "PROJECT",
+        "depth": 22930,
+        "tla_staked": 21780,
+        "apr": {
+          "non_amp": 56.76,
+          "amplified": 73.02
+        },
+        "rewards_per_year": 13999.64,
+        "adao_deposit": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-CAPA LP",
+        "normalized_name": "LUNA-CAPA",
+        "dex": "Astroport",
+        "type": "pcl",
+        "bucket": "PROJECT",
+        "depth": 53050,
+        "tla_staked": 49710,
+        "apr": {
+          "non_amp": 69.8,
+          "amplified": 98.17
+        },
+        "rewards_per_year": 39640,
+        "adao_deposit": {
+          "non_amp": 297.95,
+          "amplified": 291.26
+        }
+      },
+      {
+        "name": "LUNA-FUEL LP",
+        "normalized_name": "LUNA-FUEL",
+        "dex": "Astroport",
+        "type": "pcl",
+        "bucket": "PROJECT",
+        "depth": 34430,
+        "tla_staked": 24570,
+        "apr": {
+          "non_amp": 92.5,
+          "amplified": 146.45
+        },
+        "rewards_per_year": 25180,
+        "adao_deposit": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-ROAR LP",
+        "normalized_name": "LUNA-ROAR",
+        "dex": "Astroport",
+        "type": "pcl",
+        "bucket": "PROJECT",
+        "depth": 31400,
+        "tla_staked": 27740,
+        "apr": {
+          "non_amp": 33.15,
+          "amplified": 38.61
+        },
+        "rewards_per_year": 11898.61,
+        "adao_deposit": {
+          "non_amp": 189.33,
+          "amplified": 320.68
+        }
+      },
+      {
+        "name": "LUNA-SOLID LP",
+        "normalized_name": "LUNA-SOLID",
+        "dex": "Astroport",
+        "type": "xyk",
+        "bucket": "PROJECT",
+        "depth": 14058.41,
+        "tla_staked": 11923.24,
+        "apr": {
+          "non_amp": 14.81,
+          "amplified": 15.5
+        },
+        "rewards_per_year": 2856.27,
+        "adao_deposit": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-ampLUNA LP",
+        "normalized_name": "LUNA-ampLUNA",
+        "dex": "Astroport",
+        "type": "pcl",
+        "bucket": "PROJECT",
+        "depth": 980000,
+        "tla_staked": 95710,
+        "apr": {
+          "non_amp": 29.6,
+          "amplified": 33.77
+        },
+        "rewards_per_year": 37420,
+        "adao_deposit": {
+          "non_amp": 1421.18,
+          "amplified": 2077.66
+        }
+      },
+      {
+        "name": "LUNA-boneLUNA LP",
+        "normalized_name": "LUNA-boneLUNA",
+        "dex": "Skeleton Swap",
+        "type": "xyk",
+        "bucket": "PROJECT",
+        "depth": 243730,
+        "tla_staked": 50220,
+        "apr": {
+          "non_amp": 35.36,
+          "amplified": 41.75
+        },
+        "rewards_per_year": 22780,
+        "adao_deposit": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-stLUNA LP",
+        "normalized_name": "LUNA-stLUNA",
+        "dex": "Astroport",
+        "type": "stable",
+        "bucket": "PROJECT",
+        "depth": 5861.67,
+        "tla_staked": 4118.68,
+        "apr": {
+          "non_amp": 40.94,
+          "amplified": 49.74
+        },
+        "rewards_per_year": 2098.43,
+        "adao_deposit": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "USDC-SOLID LP",
+        "normalized_name": "USDC-SOLID",
+        "dex": "Astroport",
+        "type": "xyk",
+        "bucket": "PROJECT",
+        "depth": 103140,
+        "tla_staked": 92500,
+        "apr": {
+          "non_amp": 31.69,
+          "amplified": 36.6
+        },
+        "rewards_per_year": 38260,
+        "adao_deposit": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-ATOM LP",
+        "normalized_name": "LUNA-ATOM",
+        "dex": "Astroport",
+        "type": "xyk",
+        "bucket": "BLUECHIP",
+        "depth": 45830,
+        "tla_staked": 41950,
+        "apr": {
+          "non_amp": 39.76,
+          "amplified": 47.43
+        },
+        "rewards_per_year": 20320,
+        "adao_deposit": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-ATOM LP",
+        "normalized_name": "LUNA-ATOM",
+        "dex": "Skeleton Swap",
+        "type": "xyk",
+        "bucket": "BLUECHIP",
+        "depth": 9652.47,
+        "tla_staked": 7872.56,
+        "apr": {
+          "non_amp": 45.48,
+          "amplified": 56.54
+        },
+        "rewards_per_year": 4367.87,
+        "adao_deposit": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-wBTC.atom LP",
+        "normalized_name": "LUNA-wBTC.atom",
+        "dex": "Astroport",
+        "type": "pcl",
+        "bucket": "BLUECHIP",
+        "depth": 75690,
+        "tla_staked": 71830,
+        "apr": {
+          "non_amp": 38.18,
+          "amplified": 45.49
+        },
+        "rewards_per_year": 34200,
+        "adao_deposit": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-wBTC.axl LP",
+        "normalized_name": "LUNA-wBTC.axl",
+        "dex": "Astroport",
+        "type": "pcl",
+        "bucket": "BLUECHIP",
+        "depth": 38570,
+        "tla_staked": 34690,
+        "apr": {
+          "non_amp": 45.66,
+          "amplified": 56.7
+        },
+        "rewards_per_year": 19230,
+        "adao_deposit": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-wBTC.osmo LP",
+        "normalized_name": "LUNA-wBTC.osmo",
+        "dex": "Skeleton Swap",
+        "type": "xyk",
+        "bucket": "BLUECHIP",
+        "depth": 21900,
+        "tla_staked": 18040,
+        "apr": {
+          "non_amp": 65.84,
+          "amplified": 90.78
+        },
+        "rewards_per_year": 13687.57,
+        "adao_deposit": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-wstETH LP",
+        "normalized_name": "LUNA-wstETH",
+        "dex": "Astroport",
+        "type": "pcl",
+        "bucket": "UNKNOWN",
+        "depth": 35620,
+        "tla_staked": 34590,
+        "apr": {
+          "non_amp": 75.07,
+          "amplified": 107.74
+        },
+        "rewards_per_year": 29150,
+        "adao_deposit": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-wstETH LP",
+        "normalized_name": "LUNA-wstETH",
+        "dex": "Skeleton Swap",
+        "type": "xyk",
+        "bucket": "UNKNOWN",
+        "depth": 23670,
+        "tla_staked": 20250,
+        "apr": {
+          "non_amp": 64.81,
+          "amplified": 88.9
+        },
+        "rewards_per_year": 15150,
+        "adao_deposit": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "USDC-EURe LP",
+        "normalized_name": "USDC-EURe",
+        "dex": "Astroport",
+        "type": "pcl",
+        "bucket": "BLUECHIP",
+        "depth": 273670,
+        "tla_staked": 250480,
+        "apr": {
+          "non_amp": 13.65,
+          "amplified": 14.23
+        },
+        "rewards_per_year": 58030,
+        "adao_deposit": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-arbLUNA LP",
+        "normalized_name": "LUNA-arbLUNA",
+        "dex": "Astroport",
+        "type": "pcl",
+        "bucket": "SINGLE",
+        "depth": 61550,
+        "tla_staked": 60220,
+        "apr": {
+          "non_amp": 72.67,
+          "amplified": 102.41
+        },
+        "rewards_per_year": 48920,
+        "adao_deposit": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "USDC-USDT LP",
+        "normalized_name": "USDC-USDT",
+        "dex": "Astroport",
+        "type": "stable",
+        "bucket": "SINGLE",
+        "depth": 269570,
+        "tla_staked": 225830,
+        "apr": {
+          "non_amp": 1.07,
+          "amplified": 0.72
+        },
+        "rewards_per_year": 24810,
+        "adao_deposit": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "USDC-USDT LP",
+        "normalized_name": "USDC-USDT",
+        "dex": "Skeleton Swap",
+        "type": "stable",
+        "bucket": "SINGLE",
+        "depth": 76850,
+        "tla_staked": 71580,
+        "apr": {
+          "non_amp": 3.73,
+          "amplified": 3.47
+        },
+        "rewards_per_year": 9834.82,
+        "adao_deposit": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "ampCAPA",
+        "normalized_name": "ampCAPA",
+        "dex": "Single (Astroport)",
+        "type": "single",
+        "bucket": "SINGLE",
+        "depth": 185800,
+        "tla_staked": 161930,
+        "apr": {
+          "non_amp": 31.97,
+          "amplified": 35.57
+        },
+        "rewards_per_year": 60320,
+        "adao_deposit": {
+          "non_amp": 538.05,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "ampROAR-ROAR LP",
+        "normalized_name": "ampROAR-ROAR",
+        "dex": "Astroport",
+        "type": "pcl",
+        "bucket": "SINGLE",
+        "depth": 5519.7,
+        "tla_staked": 5392.65,
+        "apr": {
+          "non_amp": 57.29,
+          "amplified": 75.63
+        },
+        "rewards_per_year": 3628.98,
+        "adao_deposit": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "ampROAR-ROAR LP",
+        "normalized_name": "ampROAR-ROAR",
+        "dex": "Skeleton Swap",
+        "type": "xyk",
+        "bucket": "SINGLE",
+        "depth": 36750,
+        "tla_staked": 31680,
+        "apr": {
+          "non_amp": 42.45,
+          "amplified": 51.97
+        },
+        "rewards_per_year": 16620,
+        "adao_deposit": {
+          "non_amp": 92.97,
+          "amplified": 151.56
+        }
+      },
+      {
+        "name": "wBTC.axl-wBTC.osmo LP",
+        "normalized_name": "wBTC.axl-wBTC.osmo",
+        "dex": "Astroport",
+        "type": "stable",
+        "bucket": "SINGLE",
+        "depth": 80250,
+        "tla_staked": 66860,
+        "apr": {
+          "non_amp": 2.26,
+          "amplified": 1.93
+        },
+        "rewards_per_year": 8175.37,
+        "adao_deposit": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "wBTC.osmo-wBTC.axl LP",
+        "normalized_name": "wBTC.osmo-wBTC.axl",
+        "dex": "Skeleton Swap",
+        "type": "stable",
+        "bucket": "SINGLE",
+        "depth": 90940,
+        "tla_staked": 76880,
+        "apr": {
+          "non_amp": 2.82,
+          "amplified": 2.51
+        },
+        "rewards_per_year": 9857.46,
+        "adao_deposit": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "wstETH-wETH.axl LP",
+        "normalized_name": "wstETH-wETH.axl",
+        "dex": "Astroport",
+        "type": "xyk",
+        "bucket": "UNKNOWN",
+        "depth": 14268.76,
+        "tla_staked": 11505.87,
+        "apr": {
+          "non_amp": 29.71,
+          "amplified": 34.08
+        },
+        "rewards_per_year": 4569.06,
+        "adao_deposit": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "xASTRO",
+        "normalized_name": "xASTRO",
+        "dex": "Single (Astroport)",
+        "type": "single",
+        "bucket": "SINGLE",
+        "depth": 214170,
+        "tla_staked": 9564.4,
+        "apr": {
+          "non_amp": 76.93,
+          "amplified": 0
+        },
+        "rewards_per_year": 7417.74,
+        "adao_deposit": {
+          "non_amp": 15.76,
+          "amplified": 0
+        }
+      }
+    ],
+    "inactive_pools": [
+      {
+        "name": "LUNA-EURe LP",
+        "normalized_name": "LUNA-EURe",
+        "dex": "Skeleton Swap",
+        "type": "xyk",
+        "bucket": "STABLE",
+        "depth": 3531.47,
+        "tla_staked": 1264.54,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-SOLID LP",
+        "normalized_name": "LUNA-SOLID",
+        "dex": "Astroport",
+        "type": "xyk",
+        "bucket": "PROJECT",
+        "depth": 14058.41,
+        "tla_staked": 0,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-SOLID LP",
+        "normalized_name": "LUNA-SOLID",
+        "dex": "Skeleton Swap",
+        "type": "xyk",
+        "bucket": "PROJECT",
+        "depth": 81.44,
+        "tla_staked": 0,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-USDC LP",
+        "normalized_name": "LUNA-USDC",
+        "dex": "Astroport",
+        "type": "xyk",
+        "bucket": "STABLE",
+        "depth": 0.01,
+        "tla_staked": 0,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-USDT LP",
+        "normalized_name": "LUNA-USDT",
+        "dex": "Skeleton Swap",
+        "type": "xyk",
+        "bucket": "STABLE",
+        "depth": 6189.43,
+        "tla_staked": 13.47,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-ASTRO LP",
+        "normalized_name": "LUNA-ASTRO",
+        "dex": "Skeleton Swap",
+        "type": "xyk",
+        "bucket": "PROJECT",
+        "depth": 1.6,
+        "tla_staked": 0.38,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-CAPA LP",
+        "normalized_name": "LUNA-CAPA",
+        "dex": "Skeleton Swap",
+        "type": "xyk",
+        "bucket": "PROJECT",
+        "depth": 750.44,
+        "tla_staked": 308.06,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-ROAR LP",
+        "normalized_name": "LUNA-ROAR",
+        "dex": "Skeleton Swap",
+        "type": "xyk",
+        "bucket": "PROJECT",
+        "depth": 87.55,
+        "tla_staked": 0.01,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-SOLID LP",
+        "normalized_name": "LUNA-SOLID",
+        "dex": "Skeleton Swap",
+        "type": "xyk",
+        "bucket": "PROJECT",
+        "depth": 81.44,
+        "tla_staked": 0.05,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-SWTH LP",
+        "normalized_name": "LUNA-SWTH",
+        "dex": "Astroport",
+        "type": "xyk",
+        "bucket": "UNKNOWN",
+        "depth": 693.54,
+        "tla_staked": 12.64,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-SWTH LP",
+        "normalized_name": "LUNA-SWTH",
+        "dex": "Skeleton Swap",
+        "type": "xyk",
+        "bucket": "UNKNOWN",
+        "depth": 1.08,
+        "tla_staked": 0.01,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-Whale LP",
+        "normalized_name": "LUNA-Whale",
+        "dex": "Astroport",
+        "type": "stable",
+        "bucket": "UNKNOWN",
+        "depth": 0.01,
+        "tla_staked": 0,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-Whale LP",
+        "normalized_name": "LUNA-Whale",
+        "dex": "Astroport",
+        "type": "pcl",
+        "bucket": "UNKNOWN",
+        "depth": 2.86,
+        "tla_staked": 0.01,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-Whale LP",
+        "normalized_name": "LUNA-Whale",
+        "dex": "Skeleton Swap",
+        "type": "xyk",
+        "bucket": "UNKNOWN",
+        "depth": 326.71,
+        "tla_staked": 20.47,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-ampLUNA LP",
+        "normalized_name": "LUNA-ampLUNA",
+        "dex": "Skeleton Swap",
+        "type": "xyk",
+        "bucket": "PROJECT",
+        "depth": 100630,
+        "tla_staked": 159.11,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-boneLUNA LP",
+        "normalized_name": "LUNA-boneLUNA",
+        "dex": "Astroport",
+        "type": "stable",
+        "bucket": "PROJECT",
+        "depth": 7153.91,
+        "tla_staked": 5251.58,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-stLUNA LP",
+        "normalized_name": "LUNA-stLUNA",
+        "dex": "Skeleton Swap",
+        "type": "xyk",
+        "bucket": "PROJECT",
+        "depth": 1.39,
+        "tla_staked": 0.01,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "USDC-SOLID LP",
+        "normalized_name": "USDC-SOLID",
+        "dex": "Skeleton Swap",
+        "type": "xyk",
+        "bucket": "PROJECT",
+        "depth": 414.87,
+        "tla_staked": 0.01,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-INJ LP",
+        "normalized_name": "LUNA-INJ",
+        "dex": "Astroport",
+        "type": "xyk",
+        "bucket": "BLUECHIP",
+        "depth": 856.98,
+        "tla_staked": 38.77,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-INJ LP",
+        "normalized_name": "LUNA-INJ",
+        "dex": "Skeleton Swap",
+        "type": "xyk",
+        "bucket": "BLUECHIP",
+        "depth": 524.98,
+        "tla_staked": 7.54,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-PAXG LP",
+        "normalized_name": "LUNA-PAXG",
+        "dex": "Astroport",
+        "type": "pcl",
+        "bucket": "BLUECHIP",
+        "depth": 1872.95,
+        "tla_staked": 123.11,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-wBNB LP",
+        "normalized_name": "LUNA-wBNB",
+        "dex": "Astroport",
+        "type": "pcl",
+        "bucket": "UNKNOWN",
+        "depth": 27.73,
+        "tla_staked": 8.83,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-wBNB LP",
+        "normalized_name": "LUNA-wBNB",
+        "dex": "Skeleton Swap",
+        "type": "xyk",
+        "bucket": "UNKNOWN",
+        "depth": 0.01,
+        "tla_staked": 0.01,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-wBNB.axl LP",
+        "normalized_name": "LUNA-wBNB.axl",
+        "dex": "Astroport",
+        "type": "pcl",
+        "bucket": "BLUECHIP",
+        "depth": 440.26,
+        "tla_staked": 1.66,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-wBTC.atom LP",
+        "normalized_name": "LUNA-wBTC.atom",
+        "dex": "Astroport",
+        "type": "pcl",
+        "bucket": "BLUECHIP",
+        "depth": 338.73,
+        "tla_staked": 0.01,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-wSOL.wh LP",
+        "normalized_name": "LUNA-wSOL.wh",
+        "dex": "Astroport",
+        "type": "pcl",
+        "bucket": "UNKNOWN",
+        "depth": 677.81,
+        "tla_staked": 608.42,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-wSOL.wh LP",
+        "normalized_name": "LUNA-wSOL.wh",
+        "dex": "Skeleton Swap",
+        "type": "xyk",
+        "bucket": "UNKNOWN",
+        "depth": 26.29,
+        "tla_staked": 5.78,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "USDC-EURe LP",
+        "normalized_name": "USDC-EURe",
+        "dex": "Skeleton Swap",
+        "type": "xyk",
+        "bucket": "BLUECHIP",
+        "depth": 4179.86,
+        "tla_staked": 2526.9,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "USDC-USDT LP",
+        "normalized_name": "USDC-USDT",
+        "dex": "Astroport",
+        "type": "stable",
+        "bucket": "SINGLE",
+        "depth": 269570,
+        "tla_staked": 268.92,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "USDC-USDT LP",
+        "normalized_name": "USDC-USDT",
+        "dex": "Skeleton Swap",
+        "type": "stable",
+        "bucket": "SINGLE",
+        "depth": 76850,
+        "tla_staked": 465.3,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "USDC-USDT LP",
+        "normalized_name": "USDC-USDT",
+        "dex": "Skeleton Swap",
+        "type": "xyk",
+        "bucket": "SINGLE",
+        "depth": 3722.52,
+        "tla_staked": 0.33,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "ATOM-dATOM LP",
+        "normalized_name": "ATOM-dATOM",
+        "dex": "Astroport",
+        "type": "pcl",
+        "bucket": "UNKNOWN",
+        "depth": 6679.05,
+        "tla_staked": 122.52,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "ATOM-dATOM LP",
+        "normalized_name": "ATOM-dATOM",
+        "dex": "Skeleton Swap",
+        "type": "xyk",
+        "bucket": "UNKNOWN",
+        "depth": 2879.07,
+        "tla_staked": 397.08,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "ATOM-stATOM LP",
+        "normalized_name": "ATOM-stATOM",
+        "dex": "Astroport",
+        "type": "pcl",
+        "bucket": "SINGLE",
+        "depth": 1285.18,
+        "tla_staked": 0.05,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "ATOM-stATOM LP",
+        "normalized_name": "ATOM-stATOM",
+        "dex": "Skeleton Swap",
+        "type": "xyk",
+        "bucket": "SINGLE",
+        "depth": 0.04,
+        "tla_staked": 0.03,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-arbLUNA LP",
+        "normalized_name": "LUNA-arbLUNA",
+        "dex": "Astroport",
+        "type": "stable",
+        "bucket": "SINGLE",
+        "depth": 10310.26,
+        "tla_staked": 8190.98,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "LUNA-arbLUNA LP",
+        "normalized_name": "LUNA-arbLUNA",
+        "dex": "Skeleton Swap",
+        "type": "xyk",
+        "bucket": "SINGLE",
+        "depth": 1363.82,
+        "tla_staked": 31.74,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "SWTH-rSWTH LP",
+        "normalized_name": "SWTH-rSWTH",
+        "dex": "Astroport",
+        "type": "xyk",
+        "bucket": "UNKNOWN",
+        "depth": 2835.36,
+        "tla_staked": 295.24,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "SWTH-rSWTH LP",
+        "normalized_name": "SWTH-rSWTH",
+        "dex": "Skeleton Swap",
+        "type": "xyk",
+        "bucket": "UNKNOWN",
+        "depth": 0.01,
+        "tla_staked": 0,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "USDC-USDT LP",
+        "normalized_name": "USDC-USDT",
+        "dex": "Skeleton Swap",
+        "type": "xyk",
+        "bucket": "SINGLE",
+        "depth": 3722.52,
+        "tla_staked": 0,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "Whale-ampWHALE LP",
+        "normalized_name": "Whale-ampWHALE",
+        "dex": "Astroport",
+        "type": "xyk",
+        "bucket": "UNKNOWN",
+        "depth": 4.57,
+        "tla_staked": 0.01,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "Whale-boneWHALE LP",
+        "normalized_name": "Whale-boneWHALE",
+        "dex": "Astroport",
+        "type": "xyk",
+        "bucket": "UNKNOWN",
+        "depth": 3.22,
+        "tla_staked": 0.01,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "ampWHALE-Whale LP",
+        "normalized_name": "ampWHALE-Whale",
+        "dex": "Skeleton Swap",
+        "type": "xyk",
+        "bucket": "UNKNOWN",
+        "depth": 268.24,
+        "tla_staked": 28.05,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "boneWHALE-Whale LP",
+        "normalized_name": "boneWHALE-Whale",
+        "dex": "Skeleton Swap",
+        "type": "xyk",
+        "bucket": "UNKNOWN",
+        "depth": 157.34,
+        "tla_staked": 43.05,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      },
+      {
+        "name": "wETH-wstETH LP",
+        "normalized_name": "wETH-wstETH",
+        "dex": "Skeleton Swap",
+        "type": "xyk",
+        "bucket": "UNKNOWN",
+        "depth": 81.39,
+        "tla_staked": 0.01,
+        "apr": {
+          "non_amp": 0,
+          "amplified": 0
+        }
+      }
+    ]
+  },
+  "locks": {
+    "summary": {
+      "total_vp": 757020,
+      "power_factor": 10,
+      "underlying_assets": 75700,
+      "lock_count": 2
+    },
+    "individual_locks": [
+      {
+        "id": "600",
+        "amount": 27300,
+        "asset": "arbLUNA",
+        "bucket": "arbLUNA",
+        "vp": 739780,
+        "usd": 4191.98,
+        "status": "Max Lock (Auto)"
+      },
+      {
+        "id": "711",
+        "amount": 891.79,
+        "asset": "ampLUNA",
+        "bucket": "ampLUNA",
+        "vp": 17230,
+        "usd": 105.76,
+        "status": "Max Lock (Auto)"
+      }
+    ],
+    "allocations": [
+      {
+        "pool": "LUNA-USDC",
+        "dex": "Astroport",
+        "bucket": "STABLE",
+        "vp": 652550,
+        "pct": 86.2
+      },
+      {
+        "pool": "LUNA-ampLUNA",
+        "dex": "Astroport",
+        "bucket": "PROJECT",
+        "vp": 393570,
+        "pct": 51.99
+      },
+      {
+        "pool": "LUNA-wBTC.axl",
+        "dex": "Astroport",
+        "bucket": "BLUECHIP",
+        "vp": 245500,
+        "pct": 32.43
+      },
+      {
+        "pool": "USDC-EURe",
+        "dex": "Astroport",
+        "bucket": "BLUECHIP",
+        "vp": 193720,
+        "pct": 25.59
+      },
+      {
+        "pool": "LUNA-ASTRO",
+        "dex": "Astroport",
+        "bucket": "PROJECT",
+        "vp": 180170,
+        "pct": 23.8
+      },
+      {
+        "pool": "LUNA-wBTC.atom",
+        "dex": "Astroport",
+        "bucket": "BLUECHIP",
+        "vp": 178730,
+        "pct": 23.61
+      },
+      {
+        "pool": "wBTC.axl-wBTC.osmo",
+        "dex": "Astroport",
+        "bucket": "SINGLE",
+        "vp": 148300,
+        "pct": 19.59
+      },
+      {
+        "pool": "USDC-USDT",
+        "dex": "Astroport",
+        "bucket": "SINGLE",
+        "vp": 95300,
+        "pct": 12.59
+      },
+      {
+        "pool": "LUNA-ATOM",
+        "dex": "Astroport",
+        "bucket": "BLUECHIP",
+        "vp": 94240,
+        "pct": 12.45
+      },
+      {
+        "pool": "LUNA-USDT",
+        "dex": "Astroport",
+        "bucket": "STABLE",
+        "vp": 89700,
+        "pct": 11.85
+      },
+      {
+        "pool": "LUNA-SOLID",
+        "dex": "Astroport",
+        "bucket": "PROJECT",
+        "vp": 51090,
+        "pct": 6.75
+      },
+      {
+        "pool": "LUNA-boneLUNA",
+        "dex": "Astroport",
+        "bucket": "PROJECT",
+        "vp": 41480,
+        "pct": 5.48
+      },
+      {
+        "pool": "USDC-SOLID",
+        "dex": "Astroport",
+        "bucket": "PROJECT",
+        "vp": 34440,
+        "pct": 4.55
+      },
+      {
+        "pool": "LUNA-ROAR",
+        "dex": "Astroport",
+        "bucket": "PROJECT",
+        "vp": 26110,
+        "pct": 3.45
+      },
+      {
+        "pool": "LUNA-EURe",
+        "dex": "Astroport",
+        "bucket": "STABLE",
+        "vp": 14761.9,
+        "pct": 1.95
+      }
+    ]
+  },
+  "asset_metadata": {
+    "summary": {
+      "asset_count": 27,
+      "avg_access_score": 87,
+      "last_updated_epoch": 177,
+      "last_updated_date": "2026-03-22T22:20:34.130Z"
+    },
+    "assets": {
+      "LUNA": {
+        "tla_name": "LUNA",
+        "actual_path": "LUNA",
+        "origin": "terra_native",
+        "acquisition": "easy",
+        "cg_status": "cg_terra",
+        "skip_clear": true,
+        "asset_class": "core",
+        "treasury_value": "high",
+        "multi_dex": true,
+        "naming_accurate": true,
+        "access_score": 100,
+        "last_edited_epoch": null
+      },
+      "EURe": {
+        "tla_name": "EURe",
+        "actual_path": "EURe.noble",
+        "origin": "ibc",
+        "acquisition": "hard",
+        "cg_status": "cg_chain",
+        "skip_clear": true,
+        "asset_class": "stable",
+        "treasury_value": "high",
+        "multi_dex": true,
+        "naming_accurate": false,
+        "access_score": 85,
+        "last_edited_epoch": null
+      },
+      "USDC": {
+        "tla_name": "USDC",
+        "actual_path": "USDC.noble",
+        "origin": "ibc",
+        "acquisition": "hard",
+        "cg_status": "cg_chain",
+        "skip_clear": true,
+        "asset_class": "stable",
+        "treasury_value": "high",
+        "multi_dex": true,
+        "naming_accurate": false,
+        "access_score": 85,
+        "last_edited_epoch": null
+      },
+      "USDT": {
+        "tla_name": "USDT",
+        "actual_path": "USDT.kava",
+        "origin": "ibc",
+        "acquisition": "hard",
+        "cg_status": "cg_chain",
+        "skip_clear": false,
+        "asset_class": "stable",
+        "treasury_value": "high",
+        "multi_dex": true,
+        "naming_accurate": false,
+        "access_score": 75,
+        "last_edited_epoch": null
+      },
+      "ASTRO": {
+        "tla_name": "ASTRO",
+        "actual_path": "ASTRO",
+        "origin": "ibc",
+        "acquisition": "hard",
+        "cg_status": "cg_chain",
+        "skip_clear": true,
+        "asset_class": "defi",
+        "treasury_value": "low",
+        "multi_dex": true,
+        "naming_accurate": true,
+        "access_score": 90,
+        "last_edited_epoch": null
+      },
+      "CAPA": {
+        "tla_name": "CAPA",
+        "actual_path": "CAPA",
+        "origin": "terra_native",
+        "acquisition": "easy",
+        "cg_status": "cg_terra",
+        "skip_clear": true,
+        "asset_class": "native",
+        "treasury_value": "medium",
+        "multi_dex": true,
+        "naming_accurate": true,
+        "access_score": 100,
+        "last_edited_epoch": null
+      },
+      "FUEL": {
+        "tla_name": "FUEL",
+        "actual_path": "FUEL",
+        "origin": "ibc",
+        "acquisition": "medium",
+        "cg_status": "cg_none",
+        "skip_clear": true,
+        "asset_class": "defi",
+        "treasury_value": "low",
+        "multi_dex": false,
+        "naming_accurate": true,
+        "access_score": 65,
+        "last_edited_epoch": null
+      },
+      "ROAR": {
+        "tla_name": "ROAR",
+        "actual_path": "ROAR",
+        "origin": "terra_native",
+        "acquisition": "easy",
+        "cg_status": "cg_terra",
+        "skip_clear": true,
+        "asset_class": "native",
+        "treasury_value": "medium",
+        "multi_dex": true,
+        "naming_accurate": true,
+        "access_score": 100,
+        "last_edited_epoch": null
+      },
+      "SOLID": {
+        "tla_name": "SOLID",
+        "actual_path": "SOLID",
+        "origin": "terra_native",
+        "acquisition": "easy",
+        "cg_status": "cg_terra",
+        "skip_clear": true,
+        "asset_class": "native",
+        "treasury_value": "high",
+        "multi_dex": true,
+        "naming_accurate": true,
+        "access_score": 100,
+        "last_edited_epoch": null
+      },
+      "SWTH": {
+        "tla_name": "SWTH",
+        "actual_path": "SWTH",
+        "origin": "ibc",
+        "acquisition": "medium",
+        "cg_status": "cg_chain",
+        "skip_clear": true,
+        "asset_class": "defi",
+        "treasury_value": "medium",
+        "multi_dex": true,
+        "naming_accurate": true,
+        "access_score": 95,
+        "last_edited_epoch": null
+      },
+      "ampLUNA": {
+        "tla_name": "ampLUNA",
+        "actual_path": "ampLUNA",
+        "origin": "terra_lsd",
+        "acquisition": "easy",
+        "cg_status": "cg_terra",
+        "skip_clear": true,
+        "asset_class": "lsd",
+        "treasury_value": "medium",
+        "multi_dex": true,
+        "naming_accurate": true,
+        "access_score": 100,
+        "last_edited_epoch": null
+      },
+      "boneLUNA": {
+        "tla_name": "boneLUNA",
+        "actual_path": "bLUNA",
+        "origin": "terra_lsd",
+        "acquisition": "easy",
+        "cg_status": "cg_terra",
+        "skip_clear": true,
+        "asset_class": "lsd",
+        "treasury_value": "medium",
+        "multi_dex": true,
+        "naming_accurate": false,
+        "access_score": 100,
+        "last_edited_epoch": null
+      },
+      "stLUNA": {
+        "tla_name": "stLUNA",
+        "actual_path": "stLUNA",
+        "origin": "terra_lsd",
+        "acquisition": "medium",
+        "cg_status": "cg_none",
+        "skip_clear": true,
+        "asset_class": "lsd",
+        "treasury_value": "medium",
+        "multi_dex": true,
+        "naming_accurate": true,
+        "access_score": 95,
+        "last_edited_epoch": null
+      },
+      "ATOM": {
+        "tla_name": "ATOM",
+        "actual_path": "ATOM",
+        "origin": "ibc",
+        "acquisition": "easy",
+        "cg_status": "cg_chain",
+        "skip_clear": true,
+        "asset_class": "core",
+        "treasury_value": "medium",
+        "multi_dex": true,
+        "naming_accurate": true,
+        "access_score": 95,
+        "last_edited_epoch": null
+      },
+      "INJ": {
+        "tla_name": "INJ",
+        "actual_path": "INJ",
+        "origin": "ibc",
+        "acquisition": "easy",
+        "cg_status": "cg_chain",
+        "skip_clear": true,
+        "asset_class": "core",
+        "treasury_value": "medium",
+        "multi_dex": true,
+        "naming_accurate": true,
+        "access_score": 95,
+        "last_edited_epoch": null
+      },
+      "PAXG": {
+        "tla_name": "PAXG",
+        "actual_path": "PAXG.atom",
+        "origin": "bridge_eureka",
+        "acquisition": "hard",
+        "cg_status": "cg_terra",
+        "skip_clear": true,
+        "asset_class": "rwa",
+        "treasury_value": "high",
+        "multi_dex": false,
+        "naming_accurate": false,
+        "access_score": 70,
+        "last_edited_epoch": null
+      },
+      "wBNB.axl": {
+        "tla_name": "wBNB.axl",
+        "actual_path": "wBNB.axl",
+        "origin": "bridge_axelar",
+        "acquisition": "hard",
+        "cg_status": "cg_chain",
+        "skip_clear": true,
+        "asset_class": "core",
+        "treasury_value": "high",
+        "multi_dex": false,
+        "naming_accurate": true,
+        "access_score": 75,
+        "last_edited_epoch": null
+      },
+      "wBTC.atom": {
+        "tla_name": "wBTC.atom",
+        "actual_path": "wBTC.atom",
+        "origin": "bridge_eureka",
+        "acquisition": "hard",
+        "cg_status": "cg_terra",
+        "skip_clear": true,
+        "asset_class": "bluechip",
+        "treasury_value": "high",
+        "multi_dex": false,
+        "naming_accurate": true,
+        "access_score": 95,
+        "last_edited_epoch": null
+      },
+      "wBTC.axl": {
+        "tla_name": "wBTC.axl",
+        "actual_path": "wBTC.axl",
+        "origin": "bridge_axelar",
+        "acquisition": "hard",
+        "cg_status": "cg_none",
+        "skip_clear": true,
+        "asset_class": "bluechip",
+        "treasury_value": "high",
+        "multi_dex": false,
+        "naming_accurate": true,
+        "access_score": 60,
+        "last_edited_epoch": null
+      },
+      "wBTC.osmo": {
+        "tla_name": "wBTC.osmo",
+        "actual_path": "wBTC.osmo",
+        "origin": "bridge_osmosis",
+        "acquisition": "hard",
+        "cg_status": "cg_none",
+        "skip_clear": true,
+        "asset_class": "bluechip",
+        "treasury_value": "high",
+        "multi_dex": false,
+        "naming_accurate": true,
+        "access_score": 60,
+        "last_edited_epoch": null
+      },
+      "wstETH": {
+        "tla_name": "wstETH",
+        "actual_path": "wstETH",
+        "origin": "ibc",
+        "acquisition": "hard",
+        "cg_status": "cg_chain",
+        "skip_clear": true,
+        "asset_class": "bluechip",
+        "treasury_value": "high",
+        "multi_dex": false,
+        "naming_accurate": true,
+        "access_score": 100,
+        "last_edited_epoch": null
+      },
+      "stATOM": {
+        "tla_name": "stATOM",
+        "actual_path": "stATOM",
+        "origin": "ibc",
+        "acquisition": "hard",
+        "cg_status": "cg_chain",
+        "skip_clear": true,
+        "asset_class": "lsd",
+        "treasury_value": "medium",
+        "multi_dex": true,
+        "naming_accurate": true,
+        "access_score": 100,
+        "last_edited_epoch": null
+      },
+      "arbLUNA": {
+        "tla_name": "arbLUNA",
+        "actual_path": "arbLUNA",
+        "origin": "terra_lsd",
+        "acquisition": "easy",
+        "cg_status": "cg_terra",
+        "skip_clear": true,
+        "asset_class": "lsd",
+        "treasury_value": "medium",
+        "multi_dex": true,
+        "naming_accurate": true,
+        "access_score": 100,
+        "last_edited_epoch": null
+      },
+      "ampCAPA": {
+        "tla_name": "ampCAPA",
+        "actual_path": "ampCAPA",
+        "origin": "terra_native",
+        "acquisition": "easy",
+        "cg_status": "cg_none",
+        "skip_clear": true,
+        "asset_class": "lsd",
+        "treasury_value": "medium",
+        "multi_dex": false,
+        "naming_accurate": true,
+        "access_score": 85,
+        "last_edited_epoch": null
+      },
+      "ampROAR": {
+        "tla_name": "ampROAR",
+        "actual_path": "ampROAR",
+        "origin": "terra_native",
+        "acquisition": "easy",
+        "cg_status": "cg_none",
+        "skip_clear": true,
+        "asset_class": "lsd",
+        "treasury_value": "medium",
+        "multi_dex": true,
+        "naming_accurate": true,
+        "access_score": 90,
+        "last_edited_epoch": null
+      },
+      "wETH.axl": {
+        "tla_name": "wETH.axl",
+        "actual_path": "wETH.axl",
+        "origin": "bridge_axelar",
+        "acquisition": "hard",
+        "cg_status": "cg_none",
+        "skip_clear": true,
+        "asset_class": "bluechip",
+        "treasury_value": "high",
+        "multi_dex": false,
+        "naming_accurate": true,
+        "access_score": 60,
+        "last_edited_epoch": null
+      },
+      "xASTRO": {
+        "tla_name": "xASTRO",
+        "actual_path": "xASTRO",
+        "origin": "ibc",
+        "acquisition": "medium",
+        "cg_status": "cg_none",
+        "skip_clear": true,
+        "asset_class": "defi",
+        "treasury_value": "low",
+        "multi_dex": false,
+        "naming_accurate": true,
+        "access_score": 65,
+        "last_edited_epoch": null
+      }
+    }
+  },
+  "dashboard": {
+    "treasury": {
+      "tokens": [
+        {
+          "token": "ampLUNA",
+          "amount": 78737.702405,
+          "price": 0.118658,
+          "usd": 9342.85829197249
+        },
+        {
+          "token": "LUNA",
+          "amount": 96609.787589,
+          "price": 0.05872,
+          "usd": 5672.92672722608
+        },
+        {
+          "token": "bLUNA",
+          "amount": 1539.177265,
+          "price": 0.097199,
+          "usd": 149.606490980735
+        },
+        {
+          "token": "SOLID",
+          "amount": 30.091948,
+          "price": 0.974695,
+          "usd": 29.330471255859997
+        },
+        {
+          "token": "CAPA",
+          "amount": 21799.614438,
+          "price": 0.00133332,
+          "usd": 29.065861922474163
+        },
+        {
+          "token": "ASTRO",
+          "amount": 22972.787309,
+          "price": 0.00079727,
+          "usd": 18.315514137846428
+        },
+        {
+          "token": "ROAR",
+          "amount": 63551496.07833,
+          "price": 1.98374e-7,
+          "usd": 12.606964483042637
+        },
+        {
+          "token": "wBTC",
+          "amount": 0.00017738,
+          "price": 67758,
+          "usd": 12.01891404
+        },
+        {
+          "token": "USDC",
+          "amount": 5.461492,
+          "price": 0.999924,
+          "usd": 5.461076926608
+        }
+      ],
+      "total_usd": 15272.190312945137
+    },
+    "tla_deposits": {
+      "total_usd": 5403.258530353288,
+      "tokens": [
+        {
+          "symbol": "CAPA",
+          "amount": 220571.4634826,
+          "price": 0.00133073,
+          "usd": 293.5210636002003
+        },
+        {
+          "symbol": "LUNA",
+          "amount": 46694.28760410891,
+          "price": 0.058538,
+          "usd": 2733.3902077693274
+        },
+        {
+          "symbol": "ROAR",
+          "amount": 1894795164.6834767,
+          "price": 1.98036e-7,
+          "usd": 375.237655233257
+        },
+        {
+          "symbol": "ampLUNA",
+          "amount": 11076.732173274719,
+          "price": 0.11895236073241953,
+          "usd": 1317.6034412117717
+        },
+        {
+          "symbol": "ampCAPA",
+          "amount": 365596.69982,
+          "price": 0.0014711722401574443,
+          "usd": 537.8557158683581
+        },
+        {
+          "symbol": "ampROAR",
+          "amount": 550373174.4809325,
+          "price": 2.2812172553191807e-7,
+          "usd": 125.55207824906974
+        },
+        {
+          "symbol": "xASTRO",
+          "amount": 20039.304575,
+          "price": 0.0010029474,
+          "usd": 20.098368421304354
+        }
+      ],
+      "vp": 757020,
+      "apr": 35.28
+    },
+    "unclaimed_rewards": {
+      "deposit_rewards_usd": 236.35,
+      "zAssets": 2792.42,
+      "ampLUNA": 1982.83
+    },
+    "vote_rewards": {
+      "by_token": {
+        "ASTRO": {
+          "amount": 10060.88,
+          "price": 0.00079599,
+          "usd": 8.0083598712
+        },
+        "LUNA": {
+          "amount": 3742.76,
+          "price": 0.058538,
+          "usd": 219.09368488
+        },
+        "CAPA": {
+          "amount": 8193.92,
+          "price": 0.00133073,
+          "usd": 10.9038951616
+        },
+        "ROAR": {
+          "amount": 21910000,
+          "price": 1.98036e-7,
+          "usd": 4.338968759999999
+        },
+        "FUEL": {
+          "amount": 862.94,
+          "price": 0.00292,
+          "usd": 2.5197848
+        }
+      },
+      "periods": [
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176
+      ]
+    },
+    "rebase": {
+      "ampLUNA": 156.57,
+      "usd": 18.624371119874926
+    },
+    "nft_backing_per_nft": {
+      "ampLUNA": 81.2929,
+      "LUNA_equivalent": 165.1915399532698,
+      "USD": 9.669982365784508
+    },
+    "unminted_backing": {
+      "count": 5828,
+      "total_ampLUNA": 473775.0212,
+      "total_LUNA_equivalent": 962736.2948476564,
+      "total_USD": 56356.65722779211
+    },
+    "alliances": {
+      "lion_dao": {
+        "description": "Alliance with Lion DAO ecosystem",
+        "established": "2025-08-01",
+        "chain_staking": {
+          "validators": [
+            {
+              "name": "Lion DAO",
+              "address": "terravaloper1dcegyrekltswvyy0xy69ydgxn9x8x32zdtapd8",
+              "staked_luna": 10000,
+              "unclaimed_rewards_luna": 558.48956,
+              "staked_date": "2025-08-05T07:49:00Z",
+              "prop_id": "A23"
+            }
+          ],
+          "total_staked_luna": 10000,
+          "total_unclaimed_luna": 558.48956,
+          "staking_apr_pct": 24.28,
+          "staking_apr_date": "2026-03-22",
+          "last_claim_date": null
+        },
+        "roar_dao_stake": {
+          "dao_name": "Lion DAO",
+          "dao_address": "terra10cux5xr5tj5xvlttmgmzxrh8xhqf86lkq47465fhtqrmmev2p5kq63dykf",
+          "staked_roar": 1000000000,
+          "voting_power_pct": 0.4572,
+          "unclaimed_rewards": {
+            "ROAR": 8173426.810667
+          },
+          "staked_date": "2025-08-05T07:43:00Z",
+          "prop_id": "A22",
+          "last_claim_date": null
+        },
+        "pixelions_dao_stake": {
+          "dao_name": "pixeLions DAO",
+          "dao_address": "terra1xrp5qcy2gdal9c2d2vl6xnk2gq3uqk4upnhdnd3wlnlwp20r2nhqrkpzjh",
+          "staked_nfts": 20,
+          "total_supply": 5000,
+          "voting_power_pct": 0,
+          "unclaimed_rewards": {
+            "ROAR": 0,
+            "DROGO": 0
+          },
+          "staked_date": "2025-08-01T04:21:00Z",
+          "prop_id": "A21",
+          "last_claim_date": null
+        }
+      },
+      "council_treasury": {
+        "address": "terra1yqv0af22675wlcmgflxk4ve07vt8qlm999gk0cuw5l64r5xxgadsyg8ywv",
+        "description": "Council multisig wallet"
+      }
+    },
+    "council_treasury": {
+      "address": "terra1yqv0af22675wlcmgflxk4ve07vt8qlm999gk0cuw5l64r5xxgadsyg8ywv",
+      "description": "Council multisig wallet"
+    }
+  },
+  "nft_stats": {
+    "collection": {
+      "total_supply": 10000,
+      "broken_count": 1091,
+      "unbroken_count": 8909,
+      "minted_count": 4172,
+      "unminted_count": 5828
+    },
+    "staking": {
+      "daodao_staked": 1538,
+      "daodao_staked_pct": 48.49,
+      "enterprise_staked": 403,
+      "dao_members": 157,
+      "dao_broken_held": 1000
+    },
+    "supply": {
+      "circulating": 3172,
+      "liquid": 1231
+    },
+    "backing_per_nft": {
+      "ampLUNA": 81.2929,
+      "LUNA_equivalent": 165.1915399532698,
+      "USD": 9.669982365784508,
+      "avg_daily_gain_luna": 0.19
+    },
+    "marketplaces": {
+      "bbl": {
+        "epoch_sales": [
+          {
+            "nft_id": 3352,
+            "amount": 110,
+            "token": "bLUNA",
+            "usd": 10.90010594458858,
+            "broken": true,
+            "timestamp_utc": "2026-03-16T00:43:00.000Z"
+          }
+        ],
+        "floor_price": {
+          "unbroken": {
+            "amount": 1111,
+            "token": "bLUNA",
+            "usd": 110.09107004034465
+          },
+          "broken": null
+        },
+        "total_volume": {
+          "amount": 220446.78,
+          "token": "bLUNA",
+          "usd": 21844.484155849186
+        },
+        "listings": {
+          "broken": 0,
+          "unbroken": 11,
+          "total": 11,
+          "items": [
+            {
+              "nft_id": "1361",
+              "amount": 1111,
+              "token": "bLUNA",
+              "broken": false,
+              "usd": 107.98808899999999
+            },
+            {
+              "nft_id": "5239",
+              "amount": 3333,
+              "token": "bLUNA",
+              "broken": false,
+              "usd": 323.964267
+            },
+            {
+              "nft_id": "4246",
+              "amount": 3400,
+              "token": "bLUNA",
+              "broken": false,
+              "usd": 330.47659999999996
+            },
+            {
+              "nft_id": "3972",
+              "amount": 5000,
+              "token": "bLUNA",
+              "broken": false,
+              "usd": 485.99499999999995
+            },
+            {
+              "nft_id": "4621",
+              "amount": 5000,
+              "token": "bLUNA",
+              "broken": false,
+              "usd": 485.99499999999995
+            },
+            {
+              "nft_id": "4231",
+              "amount": 5000,
+              "token": "bLUNA",
+              "broken": false,
+              "usd": 485.99499999999995
+            },
+            {
+              "nft_id": "3396",
+              "amount": 6996,
+              "token": "bLUNA",
+              "broken": false,
+              "usd": 680.004204
+            },
+            {
+              "nft_id": "8042",
+              "amount": 7700,
+              "token": "bLUNA",
+              "broken": false,
+              "usd": 748.4322999999999
+            },
+            {
+              "nft_id": "3073",
+              "amount": 12000,
+              "token": "bLUNA",
+              "broken": false,
+              "usd": 1166.388
+            },
+            {
+              "nft_id": "6067",
+              "amount": 15000,
+              "token": "bLUNA",
+              "broken": false,
+              "usd": 1457.985
+            },
+            {
+              "nft_id": "2633",
+              "amount": 56000,
+              "token": "bLUNA",
+              "broken": false,
+              "usd": 5443.143999999999
+            }
+          ]
+        }
+      },
+      "boost": {
+        "epoch_sales": [],
+        "floor_price": {
+          "unbroken": {
+            "amount": 50000,
+            "token": "LUNA",
+            "usd": 2926.9
+          },
+          "broken": null
+        },
+        "total_volume": null,
+        "listings": {
+          "broken": 0,
+          "unbroken": 1,
+          "total": 1,
+          "items": [
+            {
+              "nft_id": 8149,
+              "amount": 50000,
+              "token": "LUNA",
+              "usd": 2926.9,
+              "broken": false
+            }
+          ]
+        }
+      }
+    },
+    "manual_entry": null
+  },
+  "dao_governance": {
+    "proposals": [],
+    "voting_history": [],
+    "note": "Manual entry required - DAO governance data not yet automated"
+  },
+  "token_prices": {
+    "ASTRO": {
+      "price": 0.00079599,
+      "source": "coingecko"
+    },
+    "CAPA": {
+      "price": 0.00133073,
+      "source": "coingecko"
+    },
+    "ATOM": {
+      "price": 1.76,
+      "source": "coingecko"
+    },
+    "EURe": {
+      "price": 1.16,
+      "source": "coingecko"
+    },
+    "INJ": {
+      "price": 2.92,
+      "source": "coingecko"
+    },
+    "ROAR": {
+      "price": 1.98036e-7,
+      "source": "coingecko"
+    },
+    "PAXG": {
+      "price": 4482.58,
+      "source": "coingecko"
+    },
+    "SOLID": {
+      "price": 0.977676,
+      "source": "coingecko"
+    },
+    "stATOM": {
+      "price": 3.21,
+      "source": "coingecko"
+    },
+    "stLUNA": {
+      "price": 0.106844,
+      "source": "coingecko"
+    },
+    "LUNA": {
+      "price": 0.058538,
+      "source": "coingecko"
+    },
+    "USDT": {
+      "price": 0.999873,
+      "source": "coingecko"
+    },
+    "USDC": {
+      "price": 0.999956,
+      "source": "coingecko"
+    },
+    "wBNB.axl": {
+      "price": 625.36,
+      "source": "bridged"
+    },
+    "wBTC.atom": {
+      "price": 67585,
+      "source": "bridged"
+    },
+    "wBTC.axl": {
+      "price": 67585,
+      "source": "bridged"
+    },
+    "wBTC.osmo": {
+      "price": 67585,
+      "source": "bridged"
+    },
+    "ampLUNA": {
+      "price": 0.11895236073241953,
+      "source": "calculated"
+    },
+    "arbLUNA": {
+      "price": 0.16527394614237995,
+      "source": "calculated"
+    },
+    "bLUNA": {
+      "price": 0.09909187222353254,
+      "source": "calculated"
+    },
+    "boneLUNA": {
+      "price": 0.09909187222353254,
+      "source": "calculated"
+    },
+    "ampCAPA": {
+      "price": 0.0014711722401574443,
+      "source": "calculated"
+    },
+    "ampROAR": {
+      "price": 2.2812172553191807e-7,
+      "source": "calculated"
+    },
+    "xASTRO": {
+      "price": 0.0010029474,
+      "source": "calculated"
+    },
+    "FUEL": {
+      "price": 0.00292,
+      "source": "manual"
+    }
+  },
+  "ext_data": {
+    "loaded": true,
+    "file_epoch": 177,
+    "votion": {
+      "available": true,
+      "total_vp": 6121415,
+      "pool_count": 14
+    },
+    "pd_bribes": {
+      "available": true,
+      "epoch": {
+        "ASTRO-LUNA|Astroport": {
+          "usd": 50,
+          "pct": 38,
+          "bucket": "project"
+        },
+        "AMPLUNA-LUNA|Astroport": {
+          "usd": 140,
+          "pct": 58.89,
+          "bucket": "project"
+        },
+        "EURE-USDC|Astroport": {
+          "usd": 70,
+          "pct": 34.66,
+          "bucket": "bluechip"
+        },
+        "LUNA-WSTETH|Astroport": {
+          "usd": 35,
+          "pct": 19.78,
+          "bucket": "bluechip"
+        },
+        "ATOM-LUNA|Astroport": {
+          "usd": 20,
+          "pct": 18.2,
+          "bucket": "bluechip"
+        },
+        "LUNA-WBTC.AXL|Astroport": {
+          "usd": 20,
+          "pct": 15.05,
+          "bucket": "bluechip"
+        },
+        "LUNA-WBTC|Astroport": {
+          "usd": 20,
+          "pct": 12.28,
+          "bucket": "bluechip"
+        },
+        "USDC-USDT|Astroport": {
+          "usd": 140,
+          "pct": 25.14,
+          "bucket": "single"
+        },
+        "ARBLUNA-LUNA|Astroport": {
+          "usd": 100,
+          "pct": 5.21,
+          "bucket": "single"
+        }
+      }
+    },
+    "historical_lp_count": 29
+  },
+  "validation": {
+    "valid": true,
+    "ready_for_export": true,
+    "issues": [],
+    "warnings": [],
+    "summary": {
+      "vote_parsed": true,
+      "ext_loaded": true,
+      "votion_matched": 13,
+      "apr_matched": 28,
+      "historical_matched": 46
+    }
+  }
+}
