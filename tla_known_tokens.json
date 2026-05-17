@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "lastUpdated": "2026-05-17T00:00:00Z",
+  "description": "Manual identity mappings for tokens whose TLA snapshot names are raw addresses (cw20:terra1... or native:factory/...). When the snapshot cron can't resolve a gauge entry to a friendly symbol, it stores the raw address as the pool name. This file lets the dashboard (and any other consumer) substitute a friendly name for known cases. Keys must match the snapshot name EXACTLY including the cw20: or native: prefix.",
+  "instructions": "To add a token: (1) Verify identity via chain query, project docs, or DEX listing. (2) Add an entry to the `tokens` object below with the snapshot name as key and the friendly display name as value. (3) Commit to this repo. Pages will pick up the new mapping on next reload.",
+  "tokens": {
+    "_example_cw20": "ExampleToken",
+    "_example_native": "ExampleNative"
+  },
+  "notes": [
+    "The two _example_ entries above are placeholders. Remove them once real entries exist; the loader silently ignores keys starting with underscore.",
+    "Known unresolved entries seen so far (need identification):",
+    "  cw20:terra1hqq6pnx74q0wae7eqqu2wgddzr2xn8l9gvd33sf  — possibly wBTC.credia.c (~423K VP, source_type=cw20, in_staking_contract=true). Address has invalid bech32 checksum so chain query fails. Needs manual confirmation.",
+    "  cw20:terra10xwhrfj2hqtwr4jwam3e24w92ypgl85lqz35lqz  — zero VP, status=zero_vp (inactive). Same invalid-bech32 issue.",
+    "  native:factory/terra17vas9rhxhc6j6f5wrup9cqapxn74j  — ~31K VP, status=voted_but_below_threshold."
+  ]
+}
